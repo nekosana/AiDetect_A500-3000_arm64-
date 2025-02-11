@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico" />
+
+    <title>智能水质监测系统 </title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">
+    <!-- JQVMap -->
+    <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div th:replace="~{blank::menu}"></div>
+
+      <!-- 右上角图标 -->
+      <div th:replace="~{blank::top_nav}"></div>
+      <!-- /top navigation -->
+
+
+
+
+      <!-- 主页面 -->
+        <div class="right_col" role="main">
+            <div class="">
+                <div class="page-title">
+                    <div class="title_left">
+                        <h3>日志管理</h3>
+                    </div>
+
+                    <div class="title_right">
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12  ">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2><i class="fa fa-file"></i> 日志管理</h2>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+
+                                        <div class="x_panel">
+                                            <div class="x_title">
+                                                <h2 th:text="|日志文件总大小:${logsTotalSize}MB|"></h2>
+                                                <ul class="nav navbar-right panel_toolbox">
+                                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                                    </li>
+                                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                                    </li>
+                                                </ul>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="x_content">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="card-box table-responsive">
+                                                            <table id="logsTable" class="table table-striped table-bordered" style="width:100%">
+                                                                <thead style="text-align: center">
+                                                                <tr>
+                                                                    <th>序号</th>
+                                                                    <th>文件名</th>
+                                                                    <th>文件大小</th>
+                                                                    <th>文件路径</th>
+                                                                    <th>创建时间</th>
+                                                                    <th>操作</th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody style="text-align: center">
+                                                                <tr th:each="obj,objStat:${logsFileList}">
+                                                                    <th scope="row" th:text="${objStat.count}">1</th>
+                                                                    <td th:text="${obj.fileName}"></td>
+                                                                    <td th:text="${obj.fileSize}"></td>
+                                                                    <td th:text="${obj.fileSrc}"></td>
+                                                                    <td th:text="${#dates.format(obj.createdTime,'yyyy年MM月dd日 HH时mm分')}"></td>
+                                                                    <td>
+                                                                        <a th:href="@{/download(fileName=${obj.fileName},path=${obj.fileSrc})}" style="color: #33beff">下载</a>
+                                                                        <a th:href="@{/deleteOneFile(fileName=${obj.fileName},path=${obj.fileSrc})}" style="color: #33beff">删除</a>
+                                                                    </td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!-- 主页面结束 -->
+
+
+
+
+            <!-- footer content 页脚：可以指代开发公司？-->
+            <!--        <footer>-->
+            <!--          <div class="pull-middle">-->
+            <!--            Gentelella - Bootstrap Admin Template by <a th:href="@{/https://colorlib.com">Colorlib</a>-->
+            <!--          </div>-->
+            <!--          <div class="clearfix"></div>-->
+            <!--        </footer>-->
+            <!-- /footer content -->
+        </div>
+      <!-- 主页面结束 -->
+
+
+
+
+        <!-- footer content 页脚：可以指代开发公司？-->
+<!--        <footer>-->
+<!--          <div class="pull-middle">-->
+<!--            Gentelella - Bootstrap Admin Template by <a th:href="@{/https://colorlib.com">Colorlib</a>-->
+<!--          </div>-->
+<!--          <div class="clearfix"></div>-->
+<!--        </footer>-->
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+    <!-- Bootstrap -->
+    <script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+    <!-- FastClick -->
+    <script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+    <!-- NProgress -->
+    <script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+    <!-- Chart.js -->
+    <script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>
+    <!-- gauge.js -->
+    <script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>
+    <!-- bootstrap-progressbar -->
+    <script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+    <!-- iCheck -->
+    <script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+    <!-- Skycons -->
+    <script th:src="@{/vendors/skycons/skycons.js}"></script>
+    <!-- Flot -->
+    <script th:src="@{/vendors/Flot/jquery.flot.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>
+    <!-- Flot plugins -->
+    <script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>
+    <script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>
+    <script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>
+    <!-- DateJS -->
+    <script th:src="@{/vendors/DateJS/build/date.js}"></script>
+    <!-- JQVMap -->
+    <script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>
+    <script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>
+    <script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+    <script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script th:src="@{/build/js/custom.min.js}"></script>
+  <script type="text/javascript" th:inline="javascript">
+    $(function (){
+      $("#pageSize").change(function(){
+        let feature =/*[[${feature}]]*/'';
+        if(feature!=null&&feature!=''){
+          feature='/'+feature;
+        }else {
+          feature = '';
+        }
+        console.log(feature);
+        $("#pageSizeForm").attr({'action':$("#pageSizeForm").attr('action')+$("#pageSize option:selected").val()+feature})
+        console.log($("#pageSizeForm").attr('action'));
+        $("#pageSizeForm").submit();
+      });
+    });
+  </script>
+  <script th:inline="javascript">
+      /*<![CDATA[*/
+        $(function(){
+            var msg = /*[[${msg}]]*/null;
+            if(msg!=null){
+                alert(msg);
+            }
+        })
+      /*]]>*/
+  </script>
+
+</body>
+</html>

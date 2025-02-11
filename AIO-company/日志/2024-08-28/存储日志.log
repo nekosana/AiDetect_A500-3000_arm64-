@@ -1,0 +1,1046 @@
+2024-08-28 08:49:31,790 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 08:50:16,437 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:17,012 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:17,211 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:17,412 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:17,615 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:17,797 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:18,009 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:18,206 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:18,408 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:18,613 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:18,809 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:19,016 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:19,209 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:19,416 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:19,602 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:19,809 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:20,014 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:20,205 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:20,407 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:20,620 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:20,816 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:21,016 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:21,250 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:21,421 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:21,621 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:21,826 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:22,022 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:22,222 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:22,444 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:22,648 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:22,881 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:23,085 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:23,291 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:23,515 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:23,725 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:23,926 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:24,216 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:24,414 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:24,600 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:24,853 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:25,080 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:25,328 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:25,524 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:25,878 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:26,033 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:26,248 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:26,473 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:26,707 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:26,918 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:27,186 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:27,392 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:27,640 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:27,810 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:28,054 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:28,286 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:28,510 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:28,787 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:28,989 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:29,191 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:29,440 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:29,667 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:29,885 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:30,088 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:30,400 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:30,631 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:30,871 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:31,100 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:31,280 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:31,523 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:31,715 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:31,915 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:32,207 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:32,397 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:32,601 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:32,809 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:32,998 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:33,233 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:33,464 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:33,749 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:34,019 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:34,299 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:34,477 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:34,661 ERROR [threadPoolTaskExecutor-1] c.s.a.d.v.s.ImageRecorderService [ImageRecorderService.java:177] 录制帧时发生错误
+org.bytedeco.javacv.FrameRecorder$Exception: av_write_frame() error -5 while writing video packet.
+	at org.bytedeco.javacv.FFmpegFrameRecorder.writePacket(FFmpegFrameRecorder.java:1293)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.recordImage(FFmpegFrameRecorder.java:1063)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:948)
+	at org.bytedeco.javacv.FFmpegFrameRecorder.record(FFmpegFrameRecorder.java:941)
+	at com.shark.aio.data.video.service.ImageRecorderService.run(ImageRecorderService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-08-28 08:50:52,322 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 08:54:30,392 INFO [http-nio-8089-exec-7] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 08:54:51,678 INFO [http-nio-8089-exec-4] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-28 08:57:06,553 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 08:57:17,497 INFO [http-nio-8089-exec-4] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-28 08:57:18,123 INFO [http-nio-8089-exec-10] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 09:02:54,286 INFO [http-nio-8089-exec-4] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 09:04:27,795 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-28 09:04:28,695 INFO [http-nio-8089-exec-3] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 09:07:57,099 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 09:08:32,050 INFO [http-nio-8089-exec-1] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-28 09:12:14,579 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 15:51:13,701 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 15:52:34,848 INFO [http-nio-8089-exec-8] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-28 15:52:36,232 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 15:52:40,047 INFO [http-nio-8089-exec-2] c.s.a.d.v.c.VideoController [VideoController.java:211] 进入车牌识别结果页面成功！
+2024-08-28 15:52:40,938 INFO [http-nio-8089-exec-8] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 15:53:25,645 INFO [http-nio-8089-exec-8] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-28 15:56:29,103 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 15:57:31,070 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 16:01:54,744 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 16:02:52,607 INFO [http-nio-8089-exec-10] c.s.a.d.v.c.VideoController [VideoController.java:211] 进入车牌识别结果页面成功！
+2024-08-28 16:02:54,962 INFO [http-nio-8089-exec-7] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 16:05:32,998 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 16:13:05,816 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 16:15:44,659 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 16:16:00,634 INFO [http-nio-8089-exec-9] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 16:18:54,846 INFO [http-nio-8089-exec-7] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 16:20:02,590 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 16:20:40,708 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:211] 进入车牌识别结果页面成功！
+2024-08-28 16:24:19,355 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 16:24:39,298 INFO [http-nio-8089-exec-8] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 16:29:57,426 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 16:41:39,359 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 16:48:10,448 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 16:54:06,188 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 17:13:22,031 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 17:13:31,714 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 17:13:55,954 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 17:14:15,055 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 17:14:17,429 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 17:15:47,916 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 17:16:11,510 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 17:17:12,872 INFO [http-nio-8089-exec-8] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-28 17:27:03,132 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 17:29:39,237 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 17:31:38,050 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 17:32:52,950 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-28 17:33:41,968 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>智能水质监测系统</title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+
+    <!-- bootstrap-wysiwyg -->
+    <link th:href="@{/vendors/google-code-prettify/bin/prettify.min.css}" rel="stylesheet">
+    <!-- Select2 -->
+    <link th:href="@{/vendors/select2/dist/css/select2.min.css}" rel="stylesheet">
+    <!-- Switchery -->
+    <link th:href="@{/vendors/switchery/dist/switchery.min.css}" rel="stylesheet">
+    <!-- starrr -->
+    <link th:href="@{/vendors/starrr/dist/starrr.css}" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+<div class="container body">
+    <div class="main_container">
+
+        <!-- 侧边栏 -->
+        <div th:replace="~{blank::menu}"></div>
+
+        <!-- 右上角图标 -->
+        <div th:replace="~{blank::top_nav}"></div>
+
+        <!-- 主页面 -->
+        <div class="right_col" role="main">
+            <div class="">
+                <div class="page-title">
+                    <div class="title_left">
+                        <h3><small>权限管理</small></h3>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>企业管理人员</h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <br />
+                                <form th:action="@{/authorityUpdate}" method="post" class="form-horizontal form-label-left">
+                                    <div class="form-group row">
+                                        <label class="control-label col-md-3 col-sm-3 ">分配权限</label>
+                                        <div class="col-md-9 col-sm-9 " >
+                                            <div class="">
+                                                <input type="hidden" name="id" th:value="${company.id}">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority1" th:attr="checked=${company.authority1}" /> 污染源监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch"  name="authority2" th:attr="checked=${company.authority2}"/> 用电监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority3" th:attr="checked=${company.authority3}"/> 末端监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority4" th:attr="checked=${company.authority4}"/> 视频监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch"  name="authority5" th:attr="checked=${company.authority5}"/> 智慧预警
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority6" th:attr="checked=${company.authority6}"/> 文件管理
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority7" th:attr="checked=${company.authority7}"/> 日志管理
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="ln_solid"></div>
+                                    <div class="form-group">
+                                        <div class="col-md-9 col-sm-9  offset-md-3">
+<!--                                            <button type="reset" class="btn btn-primary btn-sm">复位</button>-->
+                                            <button type="submit" class="btn btn-success btn-sm">提交</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>园区管理人员</h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <br />
+                                <form  th:action="@{/authorityUpdate}" method="post" class="form-horizontal form-label-left">
+                                    <div class="form-group row">
+                                        <label class="control-label col-md-3 col-sm-3 ">分配权限</label>
+                                        <div class="col-md-9 col-sm-9 " >
+                                            <div class="">
+                                                <input type="hidden" name="id" th:value="${park.id}">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority1" th:attr="checked=${park.authority1}" /> 污染源监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch"  name="authority2" th:attr="checked=${park.authority2}"/> 用电监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority3" th:attr="checked=${park.authority3}"/> 末端监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority4" th:attr="checked=${park.authority4}"/> 视频监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch"  name="authority5" th:attr="checked=${park.authority5}"/> 智慧预警
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority6" th:attr="checked=${park.authority6}"/> 文件管理
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority7" th:attr="checked=${park.authority7}"/> 日志管理
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="ln_solid"></div>
+                                    <div class="form-group">
+                                        <div class="col-md-9 col-sm-9  offset-md-3">
+<!--                                            <button type="reset" class="btn btn-primary btn-sm">复位</button>-->
+                                            <button type="submit" class="btn btn-success btn-sm">提交</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>企业访客</h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <br />
+                                <form class="form-horizontal form-label-left" th:action="@{/authorityUpdate}" method="post">
+                                    <div class="form-group row">
+                                        <label class="control-label col-md-3 col-sm-3 ">分配权限</label>
+                                        <div class="col-md-9 col-sm-9 " >
+                                            <div class="">
+                                                <input type="hidden" name="id" th:value="${free.id}">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority1" th:attr="checked=${free.authority1}" /> 污染源监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch"  name="authority2" th:attr="checked=${free.authority2}"/> 用电监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority3" th:attr="checked=${free.authority3}"/> 末端监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority4" th:attr="checked=${free.authority4}"/> 视频监测
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch"  name="authority5" th:attr="checked=${free.authority5}"/> 智慧预警
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority6" th:attr="checked=${free.authority6}"/> 文件管理
+                                                </label>
+                                            </div>
+                                            <div class="">
+                                                <label>
+                                                    <input type="checkbox" class="js-switch" name="authority7" th:attr="checked=${free.authority7}"/> 日志管理
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="ln_solid"></div>
+                                    <div class="form-group">
+                                        <div class="col-md-9 col-sm-9  offset-md-3">
+<!--                                            <button type="reset" class="btn btn-primary btn-sm">复位</button>-->
+                                            <button type="submit" class="btn btn-success btn-sm">提交</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+<!-- Bootstrap -->
+<script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+<!-- FastClick -->
+<script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+<!-- NProgress -->
+<script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+<!-- bootstrap-progressbar -->
+<script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+
+<!-- iCheck -->
+<script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+<!-- bootstrap-daterangepicker -->
+<script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+<script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+<!-- bootstrap-wysiwyg -->
+<script th:src="@{/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js}"></script>
+<script th:src="@{/vendors/jquery.hotkeys/jquery.hotkeys.js}"></script>
+<script th:src="@{/vendors/google-code-prettify/src/prettify.js}"></script>
+<!-- jQuery Tags Input -->
+<script th:src="@{/vendors/jquery.tagsinput/src/jquery.tagsinput.js}"></script>
+<!-- Switchery -->
+<script th:src="@{/vendors/switchery/dist/switchery.min.js}"></script>
+<!-- Select2 -->
+<script th:src="@{/vendors/select2/dist/js/select2.full.min.js}"></script>
+<!-- Parsley -->
+<script th:src="@{/vendors/parsleyjs/dist/parsley.min.js}"></script>
+<!-- Autosize -->
+<script th:src="@{/vendors/autosize/dist/autosize.min.js}"></script>
+<!-- jQuery autocomplete -->
+<script th:src="@{/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js}"></script>
+<!-- starrr -->
+<script th:src="@{/vendors/starrr/dist/starrr.js}"></script>
+
+<!-- Custom Theme Scripts -->
+<script th:src="@{/build/js/custom.min.js}"></script>
+
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    var msg = /*[[${msg}]]*/null;
+    if(msg!=null){
+        alert(msg);
+    }
+    /*]]>*/
+</script>
+</body>
+</html>

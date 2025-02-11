@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico" />
+
+    <title>智能水质监测系统 </title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">
+    <!-- JQVMap -->
+    <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div th:replace="~{blank::menu}"></div>
+
+      <!-- 右上角图标 -->
+      <div th:replace="~{blank::top_nav}"></div>
+      <!-- /top navigation -->
+
+
+
+
+      <!-- 主页面 -->
+      <div class="right_col" role="main">
+        <div class="" th:with="baseURL='/pollution/submit'">
+          <div class="page-title">
+            <div class="title_left">
+              <h3><small>个人中心</small></h3>
+
+            </div>
+
+            <div class="title_right">
+              <div class="col-md-5 col-sm-5   form-group pull-right top_search">
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="">
+            <div class="col-md-12   ">
+              <div class="x_panel fixed_height_390">
+                <div class="x_content">
+
+                  <div class="flex">
+                    <ul class="list-inline widget_profile_box">
+                      <li style="width: 50%">
+                        <a>
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li style="display: inline;">
+                        <img th:src="@{'/iconPath/'+${session.userEntity.icon}}" alt="头像" class="img-circle profile_img" style="position: absolute;transform:translate(-50%,0)">
+                      </li>
+                      <li style="width: 50%">
+                        <a th:href="@{/loginout}">
+                          <i class="fa fa-unlink"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <h3 class="name" th:text="${session.userEntity.userName}" style="text-align: center"></h3>
+
+                  <div class="flex">
+                    <ul class="list-inline count2">
+                      <li style="width: 100%;margin-bottom: 50px">
+                        <h3>电话号码：<span th:text="${INFORMATION.phone}"></span></h3>
+                      </li>
+                      <li style="width: 100%;margin-bottom: 50px">
+                        <h3>工号：<span th:text="${INFORMATION.number}"></span></h3>
+                      </li>
+                      <li style="width: 100%;margin-bottom: 50px">
+                        <h3>身份：<span th:text="${INFORMATION.postName}"></span></h3>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 主页面结束 -->
+
+
+
+
+        <!-- footer content 页脚：可以指代开发公司？-->
+<!--        <footer>-->
+<!--          <div class="pull-middle">-->
+<!--            Gentelella - Bootstrap Admin Template by <a th:href="@{/https://colorlib.com">Colorlib</a>-->
+<!--          </div>-->
+<!--          <div class="clearfix"></div>-->
+<!--        </footer>-->
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+    <!-- Bootstrap -->
+    <script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+    <!-- FastClick -->
+    <script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+    <!-- NProgress -->
+    <script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+    <!-- Chart.js -->
+    <script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>
+    <!-- gauge.js -->
+    <script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>
+    <!-- bootstrap-progressbar -->
+    <script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+    <!-- iCheck -->
+    <script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+    <!-- Skycons -->
+    <script th:src="@{/vendors/skycons/skycons.js}"></script>
+    <!-- Flot -->
+    <script th:src="@{/vendors/Flot/jquery.flot.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>
+    <!-- Flot plugins -->
+    <script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>
+    <script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>
+    <script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>
+    <!-- DateJS -->
+    <script th:src="@{/vendors/DateJS/build/date.js}"></script>
+    <!-- JQVMap -->
+    <script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>
+    <script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>
+    <script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+    <script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script th:src="@{/build/js/custom.min.js}"></script>
+	
+  <script th:inline="javascript">
+      /*<![CDATA[*/
+        var msg = /*[[${msg}]]*/null;
+        if(msg!=null){
+            alert(msg);
+        }
+      /*]]>*/
+  </script>
+</body>
+</html>

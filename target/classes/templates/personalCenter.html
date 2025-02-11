@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico"/>
+
+    <title>智能水质监测系统 </title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+
+    <!-- bootstrap-progressbar -->
+    <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">
+    <!-- JQVMap -->
+    <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+    <style>
+        div.sub-wnd {
+            width: 33%;
+            height: 18%;
+        }
+    </style>
+</head>
+
+<body class="nav-md">
+<div class="container body">
+    <div class="main_container">
+        <div th:replace="~{blank::menu}"></div>
+
+        <!-- 右上角图标 -->
+        <div th:replace="~{blank::top_nav}"></div>
+
+        <!-- 主页面 -->
+        <div class="right_col" role="main">
+            <div class="">
+                <div class="page-title">
+                    <div class="title_left">
+                        <h3><small>个人中心</small></h3>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>用户信息</h2>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+
+                                <div class="panel-body col-sm-8">
+                                    <div class="form-group">
+                                        <span class="col-lg-2 control-label">用户名：</span>
+                                        <div class="col-lg-10">
+                                            <p th:text="${INFORMATION.userName}">1234567</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="col-lg-2 control-label">性别：</span>
+                                        <div class="col-lg-10">
+                                            <p th:if="${INFORMATION.gender}==2">男</p>
+                                            <p th:if="${INFORMATION.gender}==1">女</p>
+                                        </div>
+                                    </div>
+<!--                                    <div class="form-group">-->
+<!--                                        <span class="col-lg-2 control-label">手机号</span>-->
+<!--                                        <div class="col-lg-10" style="margin-bottom: 10px;">-->
+<!--                                            <p th:text="${INFORMATION.phone}" style="display:inline;">1234567</p>-->
+<!--                                            <a th:href="@{/updatePhoneWeb(postId=${postId},username=${INFORMATION.userName})}"-->
+<!--                                               class="updatePhone" style="position: relative; left:50px">修改手机号</a>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="form-group">-->
+<!--                                        <span class="col-lg-2 control-label">邮箱</span>-->
+<!--                                        <div class="col-lg-10" style="margin-bottom: 10px;">-->
+<!--                                            <p th:text="${INFORMATION.email}" style="display:inline;">1234567</p>-->
+<!--                                            <a th:href="@{/updateEmailWeb(postId=${postId},username=${INFORMATION.userName})}"-->
+<!--                                               class="updateEmail" style="position: relative; left:50px">修改邮箱</a>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+                                    <div class="form-group">
+                                        <span class="col-lg-2 control-label">工号：</span>
+                                        <div class="col-lg-10">
+                                            <p th:text="${INFORMATION.number}">1234567</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="col-lg-2 control-label">岗位：</span>
+                                        <div class="col-lg-10">
+                                            <p th:text="${INFORMATION.postName}">1234567</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="col-lg-2 control-label">头像: </span>
+                                        <div class="col-lg-10">
+                                            <p>点击头像即可修改</p>
+                                        </div>
+                                    </div>
+<!--                                    <div class="form-group">-->
+<!--                                        <span class="col-lg-2 control-label">部门：</span>-->
+<!--                                        <div class="col-lg-10">-->
+<!--                                            <p th:text="${INFORMATION.departmentName}">7654321</p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+                                </div>
+
+                                <div  class="col-sm-3"  style="height: 240px;">
+                                    <img th:src="@{'/iconPath/'+${session.userEntity.icon}}" title="点击修改头像" id="Icon"
+                                         style="cursor: pointer; max-width: 100%; max-height: 100%;" alt="头像"
+                                         onclick="document.getElementById('iconUpdate').click()">
+                                    <form action="iconUpdate" method="POST" style="display:none;" id="iconForm"
+                                          enctype="multipart/form-data">
+                                        <input type="file" style="display: none;" id="iconUpdate" name="file"
+                                               onchange="document.getElementById('iconForm').submit()" accept="image/*">
+
+                                        <input type="hidden" name="username" th:value="${INFORMATION.userName}">
+                                    </form>
+                                </div>
+                                <div >
+                                    <form action="loginout" method="post" onsubmit="return confirm('确认要注销吗？')">
+                                        <button class="btn btn-small btn-danger" type="submit" style="margin-left:40%">退出登录
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="padding"></div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+        <!-- Bootstrap -->
+        <script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+        <!-- FastClick -->
+        <script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+        <!-- NProgress -->
+        <script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+        <!-- Chart.js -->
+        <script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>
+        <!-- gauge.js -->
+        <script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>
+        <!-- bootstrap-progressbar -->
+        <script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+        <!-- iCheck -->
+        <script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+        <!-- Skycons -->
+        <script th:src="@{/vendors/skycons/skycons.js}"></script>
+        <!-- Flot -->
+        <script th:src="@{/vendors/Flot/jquery.flot.js}"></script>
+        <script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>
+        <script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>
+        <script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>
+        <script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>
+        <!-- Flot plugins -->
+        <script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>
+        <script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>
+        <script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>
+        <!-- DateJS -->
+        <script th:src="@{/vendors/DateJS/build/date.js}"></script>
+        <!-- JQVMap -->
+        <script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>
+        <script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>
+        <script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>
+        <!-- bootstrap-daterangepicker -->
+        <script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+        <script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+
+        <!-- Custom Theme Scripts -->
+        <script th:src="@{/build/js/custom.min.js}"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.5.0/flv.min.js"></script>
+        <script th:src="@{/js/video-play.js}"></script>
+
+        <script th:inline="javascript">
+            /*<![CDATA[*/
+            var msg = /*[[${msg}]]*/null;
+            if (msg != null) {
+                alert(msg);
+            }
+            $(document).ready(function () {
+                var streams = [[${stream}]];
+                startVideo(streams);
+            });
+            /*]]>*/
+        </script>
+    </div>
+</div>
+</body>
+</html>

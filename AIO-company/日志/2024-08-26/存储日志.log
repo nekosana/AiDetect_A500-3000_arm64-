@@ -1,0 +1,100 @@
+2024-08-26 15:19:42,326 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 15:20:21,271 INFO [http-nio-8089-exec-8] c.s.a.d.v.c.VideoController [VideoController.java:286] 进入摄像头实时监测页面成功！
+2024-08-26 15:21:17,834 INFO [http-nio-8089-exec-7] c.s.a.d.v.c.VideoController [VideoController.java:286] 进入摄像头实时监测页面成功！
+2024-08-26 15:22:33,435 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:22:54,416 INFO [http-nio-8089-exec-9] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:23:06,495 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:23:43,200 INFO [http-nio-8089-exec-4] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:26:26,235 INFO [http-nio-8089-exec-8] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:27:37,441 INFO [http-nio-8089-exec-10] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:27:46,615 INFO [http-nio-8089-exec-7] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:28:24,849 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:29:40,896 INFO [http-nio-8089-exec-7] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:30:36,478 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:31:03,836 INFO [http-nio-8089-exec-10] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:31:15,660 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:31:55,858 INFO [http-nio-8089-exec-2] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:32:33,229 INFO [http-nio-8089-exec-1] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:34:12,246 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:42:45,610 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 15:43:01,524 INFO [http-nio-8089-exec-1] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:43:15,531 INFO [http-nio-8089-exec-3] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:43:36,871 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:45:22,467 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 15:45:37,062 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:46:53,656 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 15:46:57,021 INFO [http-nio-8089-exec-1] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:47:12,371 INFO [http-nio-8089-exec-4] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 15:51:30,662 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 15:53:02,964 INFO [http-nio-8089-exec-1] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 16:01:40,487 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 16:01:55,335 INFO [http-nio-8089-exec-7] c.s.a.d.v.c.VideoController [VideoController.java:305] 进入摄像头实时监测页面成功！
+2024-08-26 16:06:16,979 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 16:08:54,664 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 16:20:01,632 INFO [http-nio-8089-exec-10] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-26 16:20:29,232 INFO [http-nio-8089-exec-1] c.s.a.d.v.c.VideoController [VideoController.java:227] 进入添加摄像头页面成功！
+2024-08-26 16:34:12,299 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 17:02:13,196 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 17:04:38,930 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 17:04:59,692 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-26 17:09:37,279 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 17:26:52,664 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 17:28:02,281 INFO [http-nio-8089-exec-3] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-26 20:58:16,439 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 20:59:09,769 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 20:59:49,382 INFO [http-nio-8089-exec-2] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-26 21:01:15,271 INFO [http-nio-8089-exec-10] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 21:01:16,509 INFO [http-nio-8089-exec-2] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-26 21:01:17,201 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:211] 进入车牌识别结果页面成功！
+2024-08-26 21:02:08,758 INFO [http-nio-8089-exec-4] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-26 21:03:02,956 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:16:29,068 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:19:31,266 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:23:06,566 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:25:11,863 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:26:22,680 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-26 21:26:49,894 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 21:26:52,004 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-26 21:38:00,198 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:38:28,857 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-26 21:38:39,764 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 21:39:43,667 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:40:09,750 INFO [http-nio-8089-exec-2] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 21:40:19,296 INFO [http-nio-8089-exec-1] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-26 21:40:23,940 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 21:41:37,940 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:43:35,703 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:43:53,017 INFO [http-nio-8089-exec-4] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 21:44:12,115 INFO [http-nio-8089-exec-10] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 21:44:13,552 INFO [http-nio-8089-exec-8] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 21:51:24,009 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:52:15,835 INFO [http-nio-8089-exec-12] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-26 21:54:06,729 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 21:56:06,147 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 22:04:08,924 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 22:04:52,014 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-26 22:06:38,239 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 22:10:42,221 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 22:11:53,366 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 22:15:44,927 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 22:16:58,378 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 22:21:05,197 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 23:00:09,271 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 23:00:47,788 INFO [http-nio-8089-exec-8] c.s.a.d.v.c.VideoController [VideoController.java:288] 进入摄像头实时监测页面成功！
+2024-08-26 23:00:57,918 INFO [http-nio-8089-exec-4] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 23:07:44,164 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 23:08:30,878 INFO [http-nio-8089-exec-2] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 23:08:53,860 INFO [http-nio-8089-exec-2] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 23:08:56,711 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-26 23:10:28,693 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 23:12:18,003 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 23:13:02,559 INFO [http-nio-8089-exec-2] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 23:22:59,189 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 23:23:11,074 INFO [http-nio-8089-exec-7] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-26 23:23:15,622 INFO [http-nio-8089-exec-3] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 23:23:51,257 INFO [http-nio-8089-exec-2] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-26 23:24:55,284 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 23:26:52,272 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 23:29:27,746 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 23:52:48,750 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-26 23:55:19,853 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999

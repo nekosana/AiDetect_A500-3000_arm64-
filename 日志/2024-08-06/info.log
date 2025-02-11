@@ -1,0 +1,437 @@
+2024-08-06 09:29:26.896 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 56280 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 09:29:26.897 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 09:29:27.603 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 09:29:27.604 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 09:29:27.604 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 09:29:27.641 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 09:29:28.554 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 09:29:28.592 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.833 seconds (JVM running for 2.104)
+2024-08-06 09:29:43.204 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 09:29:43.213 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-06 09:29:43.223 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 09:29:43.285 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 09:29:43.304 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-06 09:29:43.305 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 09:29:43.306 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 09:38:17.116 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 09:38:17.123 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 09:38:29.929 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 57442 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 09:38:29.931 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 09:38:30.581 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 09:38:30.582 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 09:38:30.582 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 09:38:30.617 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 09:38:31.473 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 09:38:31.508 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.698 seconds (JVM running for 1.961)
+2024-08-06 09:42:03.373 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 09:44:22.918 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 58090 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 09:44:22.920 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 09:44:23.609 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 09:44:23.609 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 09:44:23.609 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 09:44:23.643 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 09:44:24.500 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 09:44:24.536 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.741 seconds (JVM running for 2.006)
+2024-08-06 09:44:28.810 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 09:46:27.061 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 09:46:27.129 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 10:01:29.439 [,] [http-nio-8084-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-06 10:01:29.449 [,] [http-nio-8084-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-06 10:01:29.452 [,] [http-nio-8084-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 10:01:29.456 [,] [http-nio-8084-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 10:08:49.494 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 10:08:49.499 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 10:10:57.963 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 62786 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 10:10:57.964 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 10:10:58.622 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:10:58.622 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 10:10:58.622 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 10:10:58.662 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 10:10:59.542 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:10:59.579 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.738 seconds (JVM running for 2.004)
+2024-08-06 10:11:37.613 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 10:11:37.624 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-06 10:11:37.632 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 10:11:37.692 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 10:11:37.711 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-06 10:11:37.713 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 10:11:37.713 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 10:21:57.529 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 10:21:57.536 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 10:22:10.465 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 63953 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 10:22:10.466 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 10:22:11.146 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:22:11.147 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 10:22:11.147 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 10:22:11.181 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 10:22:12.046 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:22:12.081 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.747 seconds (JVM running for 2.015)
+2024-08-06 10:22:29.353 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 64305 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 10:22:29.355 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 10:22:30.096 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:22:30.096 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 10:22:30.097 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 10:22:30.176 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 10:22:31.087 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:22:31.125 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.921 seconds (JVM running for 2.188)
+2024-08-06 10:22:40.695 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 10:23:37.147 [,] [http-nio-8084-exec-4] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 10:23:37.203 [,] [http-nio-8084-exec-4] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 10:27:48.104 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 10:27:48.112 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 10:29:57.280 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 65587 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 10:29:57.281 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 10:29:57.943 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:29:57.943 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 10:29:57.944 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 10:29:57.979 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 10:29:58.831 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:29:58.866 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.714 seconds (JVM running for 1.982)
+2024-08-06 10:30:15.101 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 65886 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 10:30:15.103 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 10:30:15.843 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:30:15.844 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 10:30:15.844 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 10:30:15.885 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 10:30:16.876 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:30:16.915 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.958 seconds (JVM running for 2.219)
+2024-08-06 10:30:52.074 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 10:32:08.119 [,] [http-nio-8084-exec-4] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 10:32:08.249 [,] [http-nio-8084-exec-4] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 10:34:33.941 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 10:34:33.949 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 10:34:47.052 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 67227 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 10:34:47.054 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 10:34:48.075 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:34:48.076 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 10:34:48.076 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 10:34:48.126 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 10:34:49.354 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 10:34:49.397 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 2.535 seconds (JVM running for 2.923)
+2024-08-06 10:35:01.573 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 10:35:01.702 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 10:35:01.791 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 10:35:01.832 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 10:35:01.835 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 10:35:38.689 [,] [http-nio-8084-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 10:35:38.690 [,] [http-nio-8084-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 10:35:45.878 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-06 10:35:45.881 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-06 10:35:45.883 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 10:35:45.883 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 10:35:59.794 [,] [http-nio-8084-exec-9] INFO  c.s.a.b.a.AuthorityController - [authority,32] - 进入权限管理页面成功！
+2024-08-06 10:36:38.128 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 10:36:38.129 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 10:40:23.127 [,] [http-nio-8084-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-06 10:40:23.132 [,] [http-nio-8084-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-06 10:40:23.133 [,] [http-nio-8084-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 10:40:23.133 [,] [http-nio-8084-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 10:42:04.282 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 10:42:04.285 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 11:30:42.746 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 72852 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 11:30:42.747 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 11:30:43.379 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:30:43.379 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 11:30:43.379 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 11:30:43.416 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 11:30:44.275 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:30:44.312 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.693 seconds (JVM running for 1.958)
+2024-08-06 11:30:44.717 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 11:30:44.734 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 11:30:44.798 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 11:31:18.271 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 11:31:18.274 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 11:31:31.645 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 73323 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 11:31:31.647 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 11:31:32.329 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:31:32.329 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 11:31:32.329 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 11:31:32.370 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 11:31:33.261 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:31:33.299 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.773 seconds (JVM running for 2.041)
+2024-08-06 11:31:52.277 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 11:31:52.296 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 11:31:52.361 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 11:33:32.865 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 11:33:32.872 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 11:33:46.168 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 73887 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 11:33:46.169 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 11:33:46.874 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:33:46.875 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 11:33:46.875 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 11:33:46.918 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 11:33:47.855 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:33:47.893 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.864 seconds (JVM running for 2.128)
+2024-08-06 11:35:03.643 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 11:35:03.665 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 11:35:03.721 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 11:35:42.420 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 11:35:42.426 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 11:36:24.913 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 74675 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 11:36:24.915 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 11:36:25.622 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:36:25.622 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 11:36:25.623 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 11:36:25.660 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 11:36:26.603 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:36:26.642 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.874 seconds (JVM running for 2.135)
+2024-08-06 11:36:28.441 [,] [http-nio-8084-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 11:36:28.460 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 11:36:28.516 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 11:37:01.211 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 11:37:01.217 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 11:37:15.100 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 75544 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 11:37:15.102 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 11:37:26.524 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 75804 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 11:37:26.525 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 11:37:27.188 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:37:27.189 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 11:37:27.189 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 11:37:27.226 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 11:37:28.116 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:37:28.151 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.761 seconds (JVM running for 2.037)
+2024-08-06 11:37:36.361 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 11:37:36.379 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 11:37:36.440 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 11:37:58.724 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 11:37:58.731 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 11:39:07.941 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 76366 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 11:39:07.943 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 11:39:08.636 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:39:08.636 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 11:39:08.636 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 11:39:08.676 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 11:39:09.542 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 11:39:09.578 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.761 seconds (JVM running for 2.038)
+2024-08-06 11:39:26.263 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 11:39:26.279 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 11:39:26.324 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 11:39:48.766 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 11:39:48.770 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 13:52:56.866 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 82744 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 13:52:56.867 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 13:52:57.525 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 13:52:57.526 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 13:52:57.526 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 13:52:57.568 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 13:52:58.450 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 13:52:58.486 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.739 seconds (JVM running for 2.003)
+2024-08-06 13:53:02.240 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 13:53:02.259 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 13:53:02.306 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 14:07:04.342 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 14:07:04.349 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 14:07:17.130 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 84567 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 14:07:17.131 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 14:07:17.775 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 14:07:17.775 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 14:07:17.775 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 14:07:17.811 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 14:07:18.700 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 14:07:18.734 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.729 seconds (JVM running for 2.012)
+2024-08-06 14:07:26.946 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 14:07:26.967 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 14:07:27.028 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 14:09:55.866 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 14:09:55.964 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 14:10:08.941 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 85215 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 14:10:08.943 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 14:10:09.589 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 14:10:09.589 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 14:10:09.589 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 14:10:09.625 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 14:10:10.510 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 14:10:10.546 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.725 seconds (JVM running for 1.991)
+2024-08-06 14:10:18.530 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 14:10:18.547 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 14:10:18.606 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 14:10:53.093 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 14:10:53.100 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 14:11:05.983 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 85706 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 14:11:05.985 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 14:11:06.623 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 14:11:06.623 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 14:11:06.623 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 14:11:06.666 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 14:11:07.524 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 14:11:07.561 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.705 seconds (JVM running for 1.978)
+2024-08-06 14:11:14.389 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 14:11:14.406 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 14:11:14.467 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 14:12:03.689 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 14:12:03.696 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 14:12:16.504 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 86171 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 14:12:16.505 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 14:12:17.141 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 14:12:17.142 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 14:12:17.142 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 14:12:17.179 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 14:12:18.023 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 14:12:18.058 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.675 seconds (JVM running for 1.941)
+2024-08-06 14:12:23.908 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 14:12:23.925 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 14:12:23.972 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 14:13:04.336 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 14:13:04.344 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 15:42:03.874 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 93106 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 15:42:03.876 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 15:42:04.588 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 15:42:04.589 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 15:42:04.589 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 15:42:04.633 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 15:42:05.580 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 15:42:05.616 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.879 seconds (JVM running for 2.136)
+2024-08-06 15:42:11.304 [,] [http-nio-8084-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 15:42:11.325 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 15:42:11.380 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 15:42:59.697 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 15:42:59.704 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 15:43:13.149 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 93683 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 15:43:13.150 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 15:43:13.912 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 15:43:13.912 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 15:43:13.912 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 15:43:13.951 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 15:43:14.922 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 15:43:14.963 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.948 seconds (JVM running for 2.21)
+2024-08-06 15:44:45.068 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 15:44:55.173 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 15:44:55.303 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 15:45:15.813 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 15:45:15.824 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 15:45:54.943 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 94264 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 15:45:54.944 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 15:45:55.653 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 15:45:55.654 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 15:45:55.654 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 15:45:55.693 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 15:45:56.622 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 15:45:56.671 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.866 seconds (JVM running for 2.13)
+2024-08-06 15:46:11.625 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 15:46:11.646 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 15:46:11.698 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 15:49:31.087 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 15:49:31.097 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 15:49:46.788 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 94923 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 15:49:46.789 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 15:49:47.524 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 15:49:47.524 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 15:49:47.524 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 15:49:47.570 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 15:49:48.514 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 15:49:48.555 [,] [http-nio-8084-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 15:49:48.567 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.93 seconds (JVM running for 2.209)
+2024-08-06 15:49:48.578 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 15:49:48.634 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 15:54:34.994 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 15:54:34.999 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 15:54:49.802 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 96271 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 15:54:49.803 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 15:54:50.516 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 15:54:50.516 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 15:54:50.516 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 15:54:50.559 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 15:54:51.530 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 15:54:51.579 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.926 seconds (JVM running for 2.198)
+2024-08-06 15:54:52.197 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 15:54:52.217 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 15:54:52.275 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 15:58:32.970 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 15:58:32.975 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 16:00:34.989 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 97533 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 16:00:34.991 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 16:00:35.720 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:00:35.720 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 16:00:35.720 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 16:00:35.760 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 16:00:36.737 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:00:36.777 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.937 seconds (JVM running for 2.211)
+2024-08-06 16:00:47.026 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 16:00:47.055 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 16:00:47.108 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 16:02:37.938 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 16:02:37.942 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 16:02:51.033 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 98052 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 16:02:51.035 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 16:02:51.768 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:02:51.768 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 16:02:51.768 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 16:02:51.817 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 16:02:52.798 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:02:52.838 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.947 seconds (JVM running for 2.22)
+2024-08-06 16:02:57.544 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 16:02:57.565 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 16:02:57.619 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 16:06:01.348 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 16:06:01.356 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 16:06:17.022 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 98634 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 16:06:17.024 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 16:06:17.757 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:06:17.757 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 16:06:17.757 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 16:06:17.802 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 16:06:18.765 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:06:18.817 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.936 seconds (JVM running for 2.209)
+2024-08-06 16:08:23.922 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 16:08:29.940 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 16:08:29.999 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 16:08:30.394 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 16:08:30.402 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 16:08:49.724 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 99161 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 16:08:49.725 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 16:08:50.464 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:08:50.464 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 16:08:50.464 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 16:08:50.509 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 16:08:51.484 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:08:51.523 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.94 seconds (JVM running for 2.213)
+2024-08-06 16:08:53.846 [,] [http-nio-8084-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 16:08:53.867 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 16:08:53.923 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 16:09:56.322 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 16:09:56.330 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 16:10:12.909 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 99987 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 16:10:12.911 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 16:10:13.565 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:10:13.566 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 16:10:13.566 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 16:10:13.600 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 16:10:14.484 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:10:14.521 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.73 seconds (JVM running for 1.996)
+2024-08-06 16:10:19.100 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 16:10:19.118 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 16:10:19.165 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 16:11:09.406 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 16:11:09.415 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 16:15:24.652 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 101714 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 16:15:24.653 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 16:15:25.374 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:15:25.374 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 16:15:25.374 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 16:15:25.446 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 16:15:26.365 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:15:26.414 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.898 seconds (JVM running for 2.154)
+2024-08-06 16:15:37.338 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 16:15:37.358 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 16:15:37.412 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 16:27:01.501 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 16:27:01.509 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-06 16:27:15.479 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 102715 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-06 16:27:15.480 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-06 16:27:16.131 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:27:16.131 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-06 16:27:16.131 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-06 16:27:16.168 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-06 16:27:17.065 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-06 16:27:17.102 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.749 seconds (JVM running for 2.021)
+2024-08-06 16:27:20.441 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-06 16:27:24.021 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-06 16:27:24.069 [,] [http-nio-8084-exec-2] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-06 16:27:53.619 [,] [http-nio-8084-exec-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 16:27:53.623 [,] [http-nio-8084-exec-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 16:28:54.646 [,] [http-nio-8084-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 16:28:54.647 [,] [http-nio-8084-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 16:29:03.629 [,] [http-nio-8084-exec-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-06 16:29:03.629 [,] [http-nio-8084-exec-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-06 16:29:26.816 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-06 16:29:26.823 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.

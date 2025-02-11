@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis",
+      "type": "com.shark.aio.alarm.GradedAlarm.JedisConnectionFactory",
+      "sourceType": "com.shark.aio.alarm.GradedAlarm.JedisConnectionFactory"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.shark.aio.alarm.GradedAlarm.JedisConnectionFactory"
+    },
+    {
+      "name": "spring.redis.jedis-pool",
+      "type": "redis.clients.jedis.JedisPool",
+      "sourceType": "com.shark.aio.alarm.GradedAlarm.JedisConnectionFactory"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.shark.aio.alarm.GradedAlarm.JedisConnectionFactory"
+    }
+  ],
+  "hints": []
+}

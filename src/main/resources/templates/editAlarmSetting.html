@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico" />
+
+    <title>智能水质监测系统 </title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">
+    <!-- JQVMap -->
+    <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div th:replace="~{blank::menu}"></div>
+
+      <!-- 右上角图标 -->
+      <div th:replace="~{blank::top_nav}"></div>
+      <!-- /top navigation -->
+
+
+
+
+      <!-- 主页面 -->
+      <div class="right_col" role="main">
+        <div class="" th:with="baseURL='/alarm/settings'">
+          <div class="page-title">
+            <div class="title_left">
+              <h3><small>预警设置</small></h3>
+
+            </div>
+
+            <div class="title_right">
+              <div class="col-md-5 col-sm-5   form-group pull-right top_search">
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="">
+
+            <div class="col-md-12">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2><i class="fa fa-cog"></i> 编辑预警设置</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+
+                  <form th:action="@{${baseURL}+'/edit'}" th:object="${alarmSettingsEntity}" method="post" id="editSettingForm" data-parsley-validate class="form-horizontal form-label-left">
+                    <input type="hidden" name="id" th:value="*{id}">
+                    <div class="item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="editMonitorClass">监测类型<span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 ">
+                        <select class="form-control " id="editMonitorClass" name="monitorClass">
+                          <option th:each="mc:${allMonitorClass}" th:value="${mc}" th:text="${mc}" th:selected="*{monitorClass}==${mc}">污染源监测</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="editMonitorValue">监测值<span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 ">
+                        <select class="form-control " id="editMonitorValue" name="monitorValue">
+                          <option th:each="pn:${allPollutionName}" th:value="${pn}" th:text="${pn}" th:selected="*{monitorValue}==${pn}">SO2</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="editLowerLimit">下限阈值
+                      </label>
+                      <div class="col-md-6 col-sm-6 ">
+                        <input th:value="*{lowerLimit}"  min="0" step="0.0001" type="number" id="editLowerLimit" class="form-control " name="lowerLimit" required="required">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="editUpperLimit">上限阈值
+                      </label>
+                      <div class="col-md-6 col-sm-6 ">
+                        <input th:value="*{upperLimit}"  min="0" step="0.0001" type="number" id="editUpperLimit" name="upperLimit" class="form-control" required="required">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label for="editUnit" class="col-form-label col-md-3 col-sm-3 label-align">单位<span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 ">
+                        <input th:value="*{unit}" id="editUnit" class="form-control" type="text" name="unit" required="required">
+                      </div>
+                    </div>
+                    <div class="item form-group">
+                      <label for="editMessage" class="col-form-label col-md-3 col-sm-3 label-align">报警信息<span class="required">*</span>
+                      </label>
+                      <div class="col-md-6 col-sm-6 ">
+                        <input th:value="*{message}" id="editMessage" class="form-control" type="text" name="message" required="required">
+                      </div>
+                    </div>
+                    <div class="ln_solid"></div>
+                    <div class="item form-group">
+                      <div class="col-md-6 col-sm-6 offset-md-4">
+                        <button class="btn btn-primary" type="reset" style="min-width: 75px;">复位</button>
+                        <button type="submit" class="btn btn-success" style="min-width: 75px;margin-left: 25px;">提交</button>
+                      </div>
+                    </div>
+
+                  </form>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- 主页面结束 -->
+
+
+
+
+        <!-- footer content 页脚：可以指代开发公司？-->
+<!--        <footer>-->
+<!--          <div class="pull-middle">-->
+<!--            Gentelella - Bootstrap Admin Template by <a th:href="@{/https://colorlib.com">Colorlib</a>-->
+<!--          </div>-->
+<!--          <div class="clearfix"></div>-->
+<!--        </footer>-->
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+    <!-- Bootstrap -->
+    <script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+    <!-- FastClick -->
+    <script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+    <!-- NProgress -->
+    <script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+    <!-- Chart.js -->
+    <script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>
+    <!-- gauge.js -->
+    <script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>
+    <!-- bootstrap-progressbar -->
+    <script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+    <!-- iCheck -->
+    <script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+    <!-- Skycons -->
+    <script th:src="@{/vendors/skycons/skycons.js}"></script>
+    <!-- Flot -->
+    <script th:src="@{/vendors/Flot/jquery.flot.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>
+    <!-- Flot plugins -->
+    <script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>
+    <script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>
+    <script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>
+    <!-- DateJS -->
+    <script th:src="@{/vendors/DateJS/build/date.js}"></script>
+    <!-- JQVMap -->
+    <script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>
+    <script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>
+    <script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+    <script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script th:src="@{/build/js/custom.min.js}"></script>
+	
+  <script th:inline="javascript">
+      /*<![CDATA[*/
+        var msg = /*[[${msg}]]*/null;
+        if(msg!=null){
+            alert(msg);
+        }
+      /*]]>*/
+  </script>
+</body>
+</html>

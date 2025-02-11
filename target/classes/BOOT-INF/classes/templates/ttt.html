@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	<title>310 Frontend</title>
+	<link href="/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+<button id="click-me-button" class="button" >Click Me!</button>
+
+<h1>Insight UBC</h1>
+
+<h2>Upload dataset</h2>
+<form id="upload-form">
+	<label for="dataset-file">Select a dataset file:</label>
+	<input type="file" id="dataset-file" name="dataset-file"><br>
+
+	<label for="dataset-id">Enter a dataset ID:</label>
+	<input type="text" id="dataset-id" name="dataset-id"><br>
+
+	<label for="dataset-type">Enter a dataset type:</label>
+	<input type="text" id="dataset-type" name="dataset-type"><br>
+
+	<input type="submit" value="Upload Dataset">
+</form>
+
+<!--<h2>Delete dataset</h2>-->
+<!--<div class="input-group mb-3">-->
+<!--	<input type="text" class="form-control" placeholder="Dataset ID" aria-label="Dataset ID" aria-describedby="button-addon2">-->
+<!--	<button class="btn btn-outline-secondary" type="button" id="button-addon2">Delete</button>-->
+<!--</div>-->
+
+
+<h2>Filter courses by average</h2>
+<form>
+	<label for="id">ID:</label>
+	<input type="text" id="id" name="id">
+
+	<label for="lower-bound">Lower Bound:</label>
+	<input type="number" id="lower-bound" name="lower-bound">
+
+	<label for="upper-bound">Upper Bound:</label>
+	<input type="number" id="upper-bound" name="upper-bound">
+
+	<button id="filter-button">Submit</button>
+</form>
+
+
+
+
+<h2>Search courses</h2>
+<form id="search-form">
+	<label for="search-id">ID:</label>
+	<input type="text" id="search-id" name="id">
+
+	<label for="dept">dept:</label>
+	<input type="text" id="dept" name="dept">
+
+	<label for="uuid">uuid:</label>
+	<input type="text" id="uuid" name="uuid">
+
+	<button id="search-button">Search Course</button>
+</form>
+
+<div id="search-table-container"></div>
+
+
+<h2>Display Table Example</h2>
+<button id="display-table-button">Display Table</button>
+<div id="table-container"></div>
+
+
+<script type="text/javascript" th:src="@{/js/frontend.js}"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+[2024-12-10 15:44:32.529][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[E:/AIO_2024.08.16/2024.9.2Summary/win/AIO/AIO-company/lib/zlib1.dll], hHandleRet[1360658432]
+[2024-12-10 15:44:32.530][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2024-12-10 15:44:32.530][INF] The COM:Core ver is 6.1.9.47, 2022_11_11. Async:1.
+[2024-12-10 15:44:32.530][INF] This HCNetSDK ver is 6.1.9.47 Ver 2022_11_11.

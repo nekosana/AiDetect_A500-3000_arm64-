@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>智能监测</title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+<div class="container body">
+    <div class="main_container">
+
+        <!-- 侧边栏 -->
+        <div th:replace="~{blank::menu}"></div>
+
+        <!-- 右上角图标 -->
+        <div th:replace="~{blank::top_nav}"></div>
+
+        <!-- 主页面 -->
+        <div class="right_col" role="main">
+            <div class="">
+                <div class="page-title">
+                    <div class="title_left">
+                        <h3><small>设备配置</small></h3>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2 style="margin-bottom: 20px;">设备：<span th:text="${newConfigDeviceTableName}"></span></h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_title">
+                                <p>请点击下载解析文件说明，按照文件说明格式填写解析，解析内容按照英文冒号对应解析量与解析值，英文分号分隔。</p>
+                                <div class="text-right">
+                                    <a th:href="@{/api/serial-device/downloadConfigDeviceFile}" style="color: #33beff">下载解析文件</a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <!-- 配置表单 -->
+                                <form th:action="@{/api/serial-device/saveConfig}" method="post">
+                                    <!-- 添加一个隐藏字段传递 newConfigDeviceTableName -->
+                                    <input type="hidden" name="newConfigDeviceTableName" th:value="${newConfigDeviceTableName}">
+                                    <table class="table table-striped projects">
+                                        <thead>
+                                        <tr>
+                                            <th>参数名称</th>
+                                            <th>寄存器地址</th>
+                                            <th>寄存器地址长度</th>
+                                            <th>校验寄存器地址</th>
+                                            <th>校验寄存器地址长度</th>
+                                            <th>解析规则</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <!-- 动态生成行 -->
+                                        <tr th:each="device : ${configDeviceEntities}">
+                                            <td th:text="${device.name}"></td>
+                                            <td>
+                                                <input type="text" class="form-control"
+                                                       th:name="'config[' + ${device.name} + '].registeraddr'"
+                                                       th:value="${device.registeraddr != null ? device.registeraddr : ''}">
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control"
+                                                       th:name="'config[' + ${device.name} + '].registeraddrlen'"
+                                                       th:value="${device.registeraddrlen != null ? device.registeraddrlen : ''}">
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control"
+                                                       th:name="'config[' + ${device.name} + '].verifyaddr'"
+                                                       th:value="${device.verifyaddr != null ? device.verifyaddr : ''}">
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control"
+                                                       th:name="'config[' + ${device.name} + '].verifyaddrlen'"
+                                                       th:value="${device.verifyaddrlen != null ? device.verifyaddrlen : ''}">
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control"
+                                                       th:name="'config[' + ${device.name} + '].info'"
+                                                       th:value="${device.info != null ? device.info : ''}"
+                                                       pattern="^(\d+:[^:;]+;)*$"
+                                                       title="格式必须形如 0:失败;1:成功;2:异常;且不允许出现中文标点符号">
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary">保存配置</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /page content -->
+    </div>
+</div>
+
+<!-- jQuery -->
+<script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+<!-- Bootstrap -->
+<script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+<!-- FastClick -->
+<script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+<!-- NProgress -->
+<script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+<!-- bootstrap-progressbar -->
+<script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+
+<!-- Custom Theme Scripts -->
+<script th:src="@{/build/js/custom.min.js}"></script>
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    var msg = /*[[${msg}]]*/null;
+    if (msg != null) {
+        alert(msg);
+    }
+    /*]]>*/
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+2024-08-31 15:00:22,614 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-31 15:00:22,654 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：25400
+2024-08-31 15:02:14,426 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-31 15:02:14,465 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：21836
+2024-08-31 15:03:25,808 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-31 15:03:25,843 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：20104

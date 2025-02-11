@@ -1,0 +1,56 @@
+2024-08-05 10:29:54.439 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 10112 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-05 10:29:54.441 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-05 10:29:55.207 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-05 10:29:55.208 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-05 10:29:55.208 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-05 10:29:55.247 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-05 10:29:55.899 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-05 10:29:56.161 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-05 10:29:56.198 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.906 seconds (JVM running for 2.177)
+2024-08-05 10:29:56.198 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-05 10:29:56.243 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-05 10:29:56.296 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-05 10:30:00.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-05 10:30:14.812 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-05 10:30:14.814 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-05 10:32:01.799 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 11057 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-05 10:32:01.800 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-05 10:32:02.456 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-05 10:32:02.456 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-05 10:32:02.457 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-05 10:32:02.494 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-05 10:32:03.333 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-05 10:32:03.367 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.687 seconds (JVM running for 1.945)
+2024-08-05 10:37:33.076 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-05 10:37:33.084 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-05 10:37:33.092 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-05 10:37:33.152 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-05 10:37:33.174 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-05 10:37:33.175 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-05 10:37:33.176 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-05 10:37:37.935 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-05 10:37:37.938 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-05 10:37:37.939 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-05 10:37:37.939 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-05 10:37:40.478 [,] [http-nio-8084-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-05 10:37:40.479 [,] [http-nio-8084-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-05 10:42:39.500 [,] [http-nio-8084-exec-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-05 10:42:39.502 [,] [http-nio-8084-exec-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-05 10:42:39.503 [,] [http-nio-8084-exec-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-05 10:42:39.503 [,] [http-nio-8084-exec-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-05 10:43:26.986 [,] [http-nio-8084-exec-2] INFO  c.s.a.b.d.DiskCapacityController - [diskCapacityManagement,69] - 进入磁盘管理页面成功！
+2024-08-05 10:43:35.762 [,] [http-nio-8084-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-05 10:43:35.763 [,] [http-nio-8084-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-05 10:43:43.142 [,] [http-nio-8084-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-05 10:43:43.145 [,] [http-nio-8084-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-05 10:43:43.146 [,] [http-nio-8084-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-05 10:43:43.146 [,] [http-nio-8084-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-05 10:43:56.791 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-05 10:43:56.794 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-05 10:43:56.795 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-05 10:43:56.795 [,] [http-nio-8084-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-05 10:44:11.844 [,] [http-nio-8084-exec-5] INFO  c.s.a.b.d.DiskCapacityController - [diskCapacityManagement,69] - 进入磁盘管理页面成功！
+2024-08-05 10:44:14.042 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-05 10:44:14.042 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-05 10:55:30.434 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-05 10:55:30.442 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.

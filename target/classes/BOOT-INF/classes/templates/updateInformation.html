@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico" />
+
+    <title>智能水质监测系统 </title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">
+    <!-- JQVMap -->
+    <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+    <!-- bootstrap-wysiwyg -->
+    <link th:href="@{/vendors/google-code-prettify/bin/prettify.min.css}" rel="stylesheet">
+    <!-- Select2 -->
+    <link th:href="@{/vendors/select2/dist/css/select2.min.css}" rel="stylesheet">
+    <!-- Switchery -->
+    <link th:href="@{/vendors/switchery/dist/switchery.min.css}" rel="stylesheet">
+    <!-- starrr -->
+    <link th:href="@{/vendors/starrr/dist/starrr.css}" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div th:replace="~{blank::menu}"></div>
+
+      <!-- 右上角图标 -->
+      <div th:replace="~{blank::top_nav}"></div>
+      <!-- /top navigation -->
+
+
+
+
+      <!-- 主页面 -->
+      <div class="right_col" role="main">
+        <div class="" th:with="baseURL='/alarm/settings'">
+          <div class="page-title">
+            <div class="title_left">
+              <h3><small>修改企业信息</small></h3>
+
+            </div>
+
+
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="row">
+            <div class="col-md-12 ">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>修改企业信息</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <br />
+                  <form th:action="@{/updataInformationEntity}" class="form-horizontal form-label-left">
+
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">企业名称：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <input type="text" class="form-control" name="company" th:value="${informationEntity.company}">
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">行业：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <input type="text" class="form-control" name="industry" th:value="${informationEntity.industry}">
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">企业描述：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <input type="text" class="form-control" name="description" th:value="${informationEntity.description}">
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">地址：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <input type="text" class="form-control" name="location" th:value="${informationEntity.location}">
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">电话：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <input type="text" class="form-control" name="telephone" th:value="${informationEntity.telephone}">
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">监测点：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <div class="col-md-6 col-sm-6 " style="padding: 10px;">
+                          <span th:each="mc:${allMonitor}" th:text="${mc}" class="badge badge-danger"> </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-md-9 col-sm-9  offset-md-3">
+                        <button type="button" class="btn btn-primary">取消</button>
+                        <button type="reset" class="btn btn-primary">复位</button>
+                        <button type="submit" class="btn btn-success">提交</button>
+                      </div>
+                    </div>
+
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 ">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>修改园区地址</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <br />
+                  <form th:action="@{/updataPartHostEntity}" class="form-horizontal form-label-left">
+
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">IP地址：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <input type="text" class="form-control" name="ip" th:value="${partHostEntity.ip}">
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">端口号：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <input type="text" class="form-control" name="port" th:value="${partHostEntity.port}">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="col-md-9 col-sm-9  offset-md-3">
+                        <button type="button" class="btn btn-primary">取消</button>
+                        <button type="reset" class="btn btn-primary">复位</button>
+                        <button type="submit" class="btn btn-success">提交</button>
+                      </div>
+                    </div>
+
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 主页面结束 -->
+
+
+
+
+        <!-- footer content 页脚：可以指代开发公司？-->
+<!--        <footer>-->
+<!--          <div class="pull-middle">-->
+<!--            Gentelella - Bootstrap Admin Template by <a th:href="@{/https://colorlib.com">Colorlib</a>-->
+<!--          </div>-->
+<!--          <div class="clearfix"></div>-->
+<!--        </footer>-->
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+    <!-- Bootstrap -->
+    <script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+    <!-- FastClick -->
+    <script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+    <!-- NProgress -->
+    <script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+    <!-- Chart.js -->
+    <script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>
+    <!-- gauge.js -->
+    <script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>
+    <!-- bootstrap-progressbar -->
+    <script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+    <!-- iCheck -->
+    <script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+    <!-- Skycons -->
+    <script th:src="@{/vendors/skycons/skycons.js}"></script>
+    <!-- Flot -->
+    <script th:src="@{/vendors/Flot/jquery.flot.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>
+    <!-- Flot plugins -->
+    <script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>
+    <script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>
+    <script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>
+    <!-- DateJS -->
+    <script th:src="@{/vendors/DateJS/build/date.js}"></script>
+    <!-- JQVMap -->
+    <script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>
+    <script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>
+    <script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+    <script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+    <!-- bootstrap-wysiwyg -->
+    <script th:src="@{/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js}"></script>
+    <script th:src="@{/vendors/jquery.hotkeys/jquery.hotkeys.js}"></script>
+    <script th:src="@{/vendors/google-code-prettify/src/prettify.js}"></script>
+    <!-- jQuery Tags Input -->
+    <script th:src="@{/vendors/jquery.tagsinput/src/jquery.tagsinput.js}"></script>
+    <!-- Switchery -->
+    <script th:src="@{/vendors/switchery/dist/switchery.min.js}"></script>
+    <!-- Select2 -->
+    <script th:src="@{/vendors/select2/dist/js/select2.full.min.js}"></script>
+    <!-- Parsley -->
+    <script th:src="@{/vendors/parsleyjs/dist/parsley.min.js}"></script>
+    <!-- Autosize -->
+    <script th:src="@{/vendors/autosize/dist/autosize.min.js}"></script>
+    <!-- jQuery autocomplete -->
+    <script th:src="@{/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js}"></script>
+    <!-- starrr -->
+    <script th:src="@{/vendors/starrr/dist/starrr.js}"></script>
+    <!-- Custom Theme Scripts -->
+    <script th:src="@{/build/js/custom.min.js}"></script>
+	
+  <script th:inline="javascript">
+      /*<![CDATA[*/
+        var msg = /*[[${msg}]]*/null;
+        if(msg!=null){
+            alert(msg);
+        }
+      /*]]>*/
+  </script>
+</body>
+</html>

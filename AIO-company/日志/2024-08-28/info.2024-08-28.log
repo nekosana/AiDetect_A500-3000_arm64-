@@ -1,0 +1,926 @@
+2024-08-28 08:49:06.254 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 2380 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 08:49:06.257 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 08:49:08.698 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 08:49:08.698 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 08:49:08.699 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 08:49:08.960 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 08:49:09.164 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 08:49:09.213 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 08:49:09.342 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 08:49:09.427 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 08:49:09.926 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 08:49:09.937 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 08:49:10.640 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 08:49:12.880 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 08:49:13.480 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 08:49:13.546 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 7.668 seconds (JVM running for 8.892)
+2024-08-28 08:49:13.546 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 08:49:20.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 08:49:30.008 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 08:49:40.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 08:50:34.772 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 08:50:34.787 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 08:50:41.468 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 1628 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 08:50:41.495 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 08:50:45.662 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 08:50:45.662 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 08:50:45.663 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 08:50:45.861 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 08:50:46.146 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 08:50:46.211 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 08:50:46.395 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 08:50:46.512 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 08:50:46.742 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 08:50:46.759 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 08:50:47.835 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 08:50:50.910 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 08:50:51.808 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 08:50:51.917 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 11.156 seconds (JVM running for 13.3)
+2024-08-28 08:50:51.917 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 08:51:00.018 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 08:54:18.464 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 08:54:18.497 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 08:54:18.561 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 08:54:18.562 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 08:54:18.564 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 08:55:23.401 [,] [http-nio-8089-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 08:55:23.407 [,] [http-nio-8089-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 08:55:23.408 [,] [http-nio-8089-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 08:55:23.408 [,] [http-nio-8089-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 08:56:52.822 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 08:56:52.835 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 08:56:56.954 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 14012 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 08:56:56.959 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 08:56:59.796 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 08:56:59.797 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 08:56:59.797 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 08:56:59.987 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 08:57:00.300 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 08:57:00.354 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 08:57:00.511 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 08:57:00.625 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 08:57:00.811 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 08:57:00.827 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 08:57:01.513 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 08:57:04.835 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 08:57:05.921 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 08:57:06.037 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 9.559 seconds (JVM running for 10.976)
+2024-08-28 08:57:06.038 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 08:57:10.009 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 08:57:10.663 [,] [http-nio-8089-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 08:57:10.693 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 08:57:10.748 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 08:57:10.749 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 08:57:10.753 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 08:58:50.009 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 08:59:02.051 [,] [http-nio-8089-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 08:59:02.060 [,] [http-nio-8089-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 08:59:02.061 [,] [http-nio-8089-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 08:59:02.061 [,] [http-nio-8089-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 08:59:40.009 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:02:20.003 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:03:10.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:04:00.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:04:10.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:04:20.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:04:30.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:04:32.552 [,] [http-nio-8089-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 09:04:32.552 [,] [http-nio-8089-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 09:04:40.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:04:50.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:05:00.014 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:05:10.015 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:05:20.021 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:05:30.008 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:05:40.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:05:50.016 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:06:00.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:06:10.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:06:20.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:06:30.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:06:40.102 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:06:50.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:07:00.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:07:10.015 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:07:20.009 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:07:22.276 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 09:07:22.299 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 09:07:44.585 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 12456 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 09:07:44.600 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 09:07:48.048 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 09:07:48.049 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 09:07:48.049 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 09:07:48.322 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 09:07:48.763 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 09:07:48.852 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 09:07:49.060 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 09:07:49.193 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 09:07:49.458 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 09:07:49.477 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 09:07:50.436 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 09:07:54.709 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 09:07:56.024 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 09:07:56.167 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 12.211 seconds (JVM running for 14.013)
+2024-08-28 09:07:56.168 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 09:08:00.005 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:08:10.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:08:20.016 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:08:30.009 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:08:31.906 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 09:08:38.322 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 09:08:38.400 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 09:08:38.402 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 09:08:38.406 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 09:08:40.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:08:50.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:09:00.005 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:09:10.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:09:20.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:09:30.009 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:09:40.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:09:50.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:10:00.014 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:10:10.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:10:20.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:10:30.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:10:40.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:10:50.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:11:00.039 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:11:10.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:11:20.014 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:11:30.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:11:40.009 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:11:50.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:11:57.567 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 09:11:57.580 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 09:12:06.263 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 2224 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 09:12:06.281 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 09:12:08.449 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 09:12:08.450 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 09:12:08.451 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 09:12:08.614 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 09:12:08.875 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 09:12:08.927 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 09:12:09.070 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 09:12:09.152 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 09:12:09.301 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 09:12:09.317 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 09:12:09.901 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 09:12:12.813 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 09:12:13.791 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 09:12:13.898 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 8.09 seconds (JVM running for 9.392)
+2024-08-28 09:12:13.899 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 09:12:18.953 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 09:12:18.980 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 09:12:19.039 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 09:12:19.039 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 09:12:19.042 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 09:12:20.008 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 09:13:10.303 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 09:13:10.314 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 15:51:05.658 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 3476 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 15:51:05.669 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 15:51:07.438 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 15:51:07.439 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 15:51:07.439 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 15:51:07.570 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 15:51:07.754 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 15:51:07.797 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 15:51:07.915 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 15:51:07.996 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 15:51:08.308 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 15:51:08.319 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 15:51:08.845 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 15:51:10.749 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 15:51:11.316 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 15:51:11.436 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 6.084 seconds (JVM running for 7.174)
+2024-08-28 15:51:11.436 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 15:51:19.145 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 15:51:19.163 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 15:51:19.224 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 15:51:19.224 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 15:51:19.226 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 15:51:20.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 15:54:22.097 [,] [http-nio-8089-exec-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 15:54:22.097 [,] [http-nio-8089-exec-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 15:56:15.713 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 15:56:15.721 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 15:56:20.464 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 2436 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 15:56:20.468 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 15:56:22.948 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 15:56:22.950 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 15:56:22.950 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 15:56:23.113 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 15:56:23.355 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 15:56:23.400 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 15:56:23.530 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 15:56:23.620 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 15:56:23.770 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 15:56:23.781 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 15:56:24.406 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 15:56:27.300 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 15:56:28.201 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 15:56:28.293 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 8.29 seconds (JVM running for 9.693)
+2024-08-28 15:56:28.293 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 15:56:30.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 15:57:26.828 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 15:57:26.858 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 15:57:26.904 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 15:57:26.905 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 15:57:26.909 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 15:59:39.461 [,] [http-nio-8089-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 15:59:39.473 [,] [http-nio-8089-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 15:59:39.474 [,] [http-nio-8089-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 15:59:39.474 [,] [http-nio-8089-exec-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:01:33.360 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 16:01:33.372 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 16:01:45.793 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 13104 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 16:01:45.800 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 16:01:48.341 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:01:48.341 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 16:01:48.342 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 16:01:48.508 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 16:01:48.784 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 16:01:48.836 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 16:01:48.980 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 16:01:49.078 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 16:01:49.264 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 16:01:49.277 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 16:01:49.981 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 16:01:52.922 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 16:01:53.780 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:01:53.882 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 8.603 seconds (JVM running for 10.054)
+2024-08-28 16:01:53.882 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 16:02:00.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:02:32.021 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 16:02:39.281 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:02:39.331 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:02:39.332 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:02:39.335 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:04:48.779 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 16:04:48.790 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 16:05:23.374 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 25888 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 16:05:23.389 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 16:05:25.909 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:05:25.910 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 16:05:25.910 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 16:05:26.099 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 16:05:26.377 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 16:05:26.428 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 16:05:26.576 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 16:05:26.678 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 16:05:27.182 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 16:05:27.196 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 16:05:27.852 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 16:05:30.883 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 16:05:31.848 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:05:31.953 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 9.074 seconds (JVM running for 10.511)
+2024-08-28 16:05:31.954 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 16:05:40.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:06:08.309 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 16:06:08.356 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:06:08.407 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:06:08.408 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:06:08.411 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:07:00.015 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:08:10.008 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:12:38.186 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 16:12:38.210 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 16:12:54.344 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 26464 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 16:12:54.361 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 16:12:57.353 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:12:57.354 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 16:12:57.354 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 16:12:57.552 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 16:12:57.861 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 16:12:57.919 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 16:12:58.086 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 16:12:58.196 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 16:12:59.181 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 16:12:59.196 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 16:12:59.925 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 16:13:03.282 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 16:13:04.357 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:13:04.502 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 10.709 seconds (JVM running for 12.222)
+2024-08-28 16:13:04.503 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 16:13:10.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:13:20.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:13:30.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:13:40.000 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:13:50.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:14:00.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:14:10.005 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:14:20.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:14:30.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:14:40.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:14:50.015 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:14:54.844 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 16:14:54.860 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:14:54.886 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:14:54.887 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:14:54.888 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:15:00.017 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:15:10.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:15:20.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:15:30.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:15:33.653 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 16:15:33.659 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 16:15:37.632 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 18308 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 16:15:37.647 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 16:15:39.306 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:15:39.307 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 16:15:39.307 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 16:15:39.436 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 16:15:39.621 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 16:15:39.655 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 16:15:39.754 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 16:15:39.819 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 16:15:39.920 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 16:15:39.930 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 16:15:40.359 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 16:15:42.336 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 16:15:42.888 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:15:42.958 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 5.728 seconds (JVM running for 7.025)
+2024-08-28 16:15:42.959 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 16:15:47.649 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 16:15:47.666 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:15:47.688 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:15:47.689 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:15:47.690 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:15:50.003 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:18:18.501 [,] [http-nio-8089-exec-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:18:18.511 [,] [http-nio-8089-exec-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:18:18.512 [,] [http-nio-8089-exec-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:18:18.512 [,] [http-nio-8089-exec-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:18:48.051 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:18:48.056 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:18:48.057 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:18:48.057 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:19:49.563 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 16:19:49.716 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 16:19:54.138 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 19524 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 16:19:54.143 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 16:19:56.494 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:19:56.494 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 16:19:56.495 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 16:19:56.663 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 16:19:56.941 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 16:19:56.988 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 16:19:57.130 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 16:19:57.219 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 16:19:57.378 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 16:19:57.393 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 16:19:57.951 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 16:20:00.557 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 16:20:01.351 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:20:01.431 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 7.74 seconds (JVM running for 9.245)
+2024-08-28 16:20:01.432 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 16:20:10.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:20:35.441 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 16:20:35.473 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:20:35.500 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:20:35.501 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:20:35.505 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:23:57.776 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 16:23:57.786 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 16:24:08.677 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 14776 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 16:24:08.682 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 16:24:11.312 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:24:11.314 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 16:24:11.314 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 16:24:11.503 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 16:24:11.804 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 16:24:11.856 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 16:24:12.014 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 16:24:12.129 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 16:24:12.302 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 16:24:12.316 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 16:24:12.950 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 16:24:16.391 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 16:24:17.499 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:24:17.614 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 9.447 seconds (JVM running for 10.908)
+2024-08-28 16:24:17.614 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 16:24:20.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:24:33.873 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 16:24:33.909 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:24:33.937 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:24:33.938 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:24:33.941 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:25:40.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:27:20.015 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:29:33.940 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 16:29:33.955 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 16:29:49.626 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 23164 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 16:29:49.631 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 16:29:51.993 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:29:51.993 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 16:29:51.993 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 16:29:52.157 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 16:29:52.402 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 16:29:52.452 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 16:29:52.583 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 16:29:52.678 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 16:29:52.994 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 16:29:53.008 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 16:29:53.557 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 16:29:55.796 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 16:29:56.337 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:29:56.411 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 7.258 seconds (JVM running for 8.636)
+2024-08-28 16:29:56.412 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 16:30:00.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:34:10.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:36:21.215 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 16:36:21.253 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:36:21.275 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:36:21.276 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:36:21.278 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:36:40.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:38:40.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:41:10.015 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:41:13.508 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 16:41:13.528 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 16:41:26.382 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 9276 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 16:41:26.394 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 16:41:29.631 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:41:29.632 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 16:41:29.633 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 16:41:29.847 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 16:41:30.195 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 16:41:30.273 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 16:41:30.465 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 16:41:30.620 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 16:41:30.947 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 16:41:30.965 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 16:41:31.776 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 16:41:35.691 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 16:41:36.921 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:41:37.031 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 16:41:37.055 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 11.202 seconds (JVM running for 13.341)
+2024-08-28 16:41:37.056 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 16:41:37.063 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:41:37.123 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:41:37.125 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:41:37.128 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:41:40.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:41:50.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:42:00.003 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:42:08.401 [,] [http-nio-8089-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:42:08.407 [,] [http-nio-8089-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:42:08.409 [,] [http-nio-8089-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:42:08.410 [,] [http-nio-8089-exec-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:42:10.014 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:42:20.003 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:42:30.003 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:42:40.005 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:42:50.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:43:00.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:43:10.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:43:20.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:43:30.016 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:43:40.016 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:43:50.000 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:44:00.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:44:10.005 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:44:20.003 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:44:30.003 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:44:40.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:44:50.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:45:00.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:45:10.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:45:20.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:45:30.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:45:40.015 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:45:50.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:46:00.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:46:10.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:46:20.005 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:46:30.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:46:40.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:46:50.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:47:00.016 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:47:10.015 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:47:20.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:47:30.009 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:47:40.008 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:47:50.185 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 16:47:50.221 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 16:47:59.785 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 24256 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 16:47:59.790 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 16:48:03.038 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:48:03.039 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 16:48:03.040 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 16:48:03.227 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 16:48:03.534 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 16:48:03.592 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 16:48:03.762 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 16:48:03.870 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 16:48:04.073 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 16:48:04.087 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 16:48:04.874 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 16:48:08.259 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 16:48:09.338 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:48:09.438 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 10.192 seconds (JVM running for 11.736)
+2024-08-28 16:48:09.439 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 16:48:10.008 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:48:20.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:48:30.016 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:48:30.657 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 16:48:30.690 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:48:30.750 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:48:30.751 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:48:30.754 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:48:40.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:48:50.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:49:00.003 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:49:10.014 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:49:20.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:49:30.016 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:49:40.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:49:49.240 [,] [http-nio-8089-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:49:49.243 [,] [http-nio-8089-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:49:49.244 [,] [http-nio-8089-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:49:49.244 [,] [http-nio-8089-exec-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:49:50.015 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:50:00.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:50:10.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:50:20.016 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:50:30.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:50:40.016 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:50:50.005 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:51:00.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:51:10.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:51:20.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:51:30.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:51:40.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:51:50.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:52:00.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:52:10.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:52:20.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:52:30.014 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:52:40.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:52:50.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:53:00.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:53:10.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:53:20.008 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:53:30.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:53:40.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:53:47.639 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 16:53:47.649 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 16:53:57.953 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 10260 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 16:53:57.974 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 16:54:00.379 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:54:00.379 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 16:54:00.380 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 16:54:00.825 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 16:54:01.074 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 16:54:01.131 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 16:54:01.289 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 16:54:01.405 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 16:54:01.629 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 16:54:01.650 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 16:54:02.229 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 16:54:04.922 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 16:54:05.783 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 16:54:05.873 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 8.397 seconds (JVM running for 9.716)
+2024-08-28 16:54:05.873 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 16:54:10.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:54:14.213 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 16:54:14.237 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 16:54:14.257 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 16:54:14.258 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 16:54:14.263 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 16:56:20.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 16:57:50.019 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:05:30.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:07:30.009 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:08:10.008 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:08:20.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:08:30.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:08:40.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:08:50.003 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:09:00.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:09:10.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:09:20.014 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:09:30.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:09:40.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:09:50.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:10:00.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:10:10.014 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:10:20.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:10:30.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:10:40.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:10:50.016 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:11:00.003 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:11:10.004 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:11:20.008 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:11:30.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:11:40.008 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:11:50.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:12:00.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:12:10.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:12:20.051 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:12:30.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:12:40.009 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:12:42.795 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 17:12:42.819 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 17:13:09.364 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 9264 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 17:13:09.376 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:13:13.047 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:13:13.048 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 17:13:13.049 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 17:13:13.374 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:13:13.786 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:13:13.860 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 17:13:14.080 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 17:13:14.219 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 17:13:14.455 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 17:13:14.474 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 17:13:15.352 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:13:19.524 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 17:13:20.925 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:13:21.084 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 12.317 seconds (JVM running for 14.334)
+2024-08-28 17:13:21.085 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 17:13:23.430 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 17:13:23.482 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 17:13:25.994 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 17:13:25.997 [,] [http-nio-8089-exec-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:13:30.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:13:43.673 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 24872 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 17:13:43.686 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:13:47.117 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:13:47.118 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 17:13:47.118 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 17:13:47.356 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:13:47.746 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:13:47.821 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 17:13:48.037 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 17:13:48.183 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 17:13:48.426 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 17:13:48.444 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 17:13:49.281 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:13:53.499 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 17:13:54.845 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:13:54.995 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 11.908 seconds (JVM running for 13.629)
+2024-08-28 17:13:54.996 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 17:14:00.014 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:14:08.590 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 17:14:08.626 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 17:14:08.647 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 17:14:08.648 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 17:14:08.651 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:14:10.011 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:14:20.015 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:14:30.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:14:40.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:14:50.001 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:15:00.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:15:10.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:15:20.017 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:15:30.013 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:15:42.235 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 10860 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 17:15:42.247 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:15:43.732 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:15:43.733 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 17:15:43.733 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 17:15:43.845 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:15:44.018 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:15:44.052 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 17:15:44.149 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 17:15:44.212 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 17:15:44.312 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 17:15:44.321 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 17:15:44.885 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:15:46.752 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 17:15:47.333 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:15:47.392 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 5.453 seconds (JVM running for 6.422)
+2024-08-28 17:15:47.393 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 17:15:50.006 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:16:06.388 [,] [http-nio-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 17:16:06.414 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-28 17:16:06.429 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-28 17:16:06.430 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-28 17:16:06.432 [,] [http-nio-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:26:50.472 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 17:26:50.478 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 17:26:57.420 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 10940 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 17:26:57.441 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:26:58.858 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:26:58.859 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 17:26:58.859 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 17:26:58.971 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:26:59.143 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:26:59.174 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 17:26:59.261 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 17:26:59.322 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 17:26:59.413 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 17:26:59.422 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 17:26:59.892 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:27:01.844 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 17:27:02.375 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:27:02.434 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 5.317 seconds (JVM running for 6.335)
+2024-08-28 17:27:02.434 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 17:27:10.012 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:27:11.687 [,] [redisMessageListenerContainer-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:11.687 [,] [redisMessageListenerContainer-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:15.119 [,] [redisMessageListenerContainer-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:15.119 [,] [redisMessageListenerContainer-3] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:17.220 [,] [redisMessageListenerContainer-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:17.220 [,] [redisMessageListenerContainer-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:18.990 [,] [redisMessageListenerContainer-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:18.990 [,] [redisMessageListenerContainer-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:20.979 [,] [redisMessageListenerContainer-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:20.979 [,] [redisMessageListenerContainer-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:23.463 [,] [redisMessageListenerContainer-11] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:23.464 [,] [redisMessageListenerContainer-12] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:25.665 [,] [redisMessageListenerContainer-13] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:25.665 [,] [redisMessageListenerContainer-14] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:27.758 [,] [redisMessageListenerContainer-15] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:27.758 [,] [redisMessageListenerContainer-16] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:29.862 [,] [redisMessageListenerContainer-17] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:27:29.863 [,] [redisMessageListenerContainer-18] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:24.430 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 17:29:24.437 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 17:29:32.379 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 4116 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 17:29:32.382 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:29:33.996 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:29:33.996 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 17:29:33.997 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 17:29:34.107 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:29:34.278 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:29:34.309 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 17:29:34.397 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 17:29:34.458 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 17:29:34.579 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 17:29:34.589 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 17:29:35.021 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:29:36.901 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 17:29:37.451 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:29:37.515 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 5.432 seconds (JVM running for 6.675)
+2024-08-28 17:29:37.516 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 17:29:40.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:29:48.044 [,] [redisMessageListenerContainer-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:48.044 [,] [redisMessageListenerContainer-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:50.363 [,] [redisMessageListenerContainer-3] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:50.363 [,] [redisMessageListenerContainer-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:51.804 [,] [redisMessageListenerContainer-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:51.804 [,] [redisMessageListenerContainer-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:55.564 [,] [redisMessageListenerContainer-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:55.564 [,] [redisMessageListenerContainer-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:57.224 [,] [redisMessageListenerContainer-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:57.224 [,] [redisMessageListenerContainer-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:59.219 [,] [redisMessageListenerContainer-12] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:29:59.219 [,] [redisMessageListenerContainer-11] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:30:01.325 [,] [redisMessageListenerContainer-14] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:30:01.325 [,] [redisMessageListenerContainer-13] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:30:03.087 [,] [redisMessageListenerContainer-16] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:30:03.087 [,] [redisMessageListenerContainer-15] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:30:05.158 [,] [redisMessageListenerContainer-17] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:30:05.158 [,] [redisMessageListenerContainer-18] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:25.080 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 17:31:25.099 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 17:31:32.020 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 4328 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 17:31:32.023 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:31:33.491 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:31:33.491 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 17:31:33.492 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 17:31:33.613 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:31:33.792 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:31:33.825 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 17:31:33.924 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 17:31:33.993 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 17:31:34.098 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 17:31:34.108 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 17:31:34.621 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:31:36.570 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 17:31:37.178 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:31:37.239 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 5.531 seconds (JVM running for 6.613)
+2024-08-28 17:31:37.240 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 17:31:40.002 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:31:47.142 [,] [redisMessageListenerContainer-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:47.142 [,] [redisMessageListenerContainer-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:50.916 [,] [redisMessageListenerContainer-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:50.916 [,] [redisMessageListenerContainer-3] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:52.907 [,] [redisMessageListenerContainer-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:52.907 [,] [redisMessageListenerContainer-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:55.014 [,] [redisMessageListenerContainer-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:55.014 [,] [redisMessageListenerContainer-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:56.893 [,] [redisMessageListenerContainer-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:56.893 [,] [redisMessageListenerContainer-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:58.994 [,] [redisMessageListenerContainer-11] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:31:58.994 [,] [redisMessageListenerContainer-12] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:32:00.872 [,] [redisMessageListenerContainer-13] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:32:00.872 [,] [redisMessageListenerContainer-14] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:32:02.649 [,] [redisMessageListenerContainer-16] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:32:02.649 [,] [redisMessageListenerContainer-15] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:32:04.893 [,] [redisMessageListenerContainer-18] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:32:04.893 [,] [redisMessageListenerContainer-17] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:32:38.965 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 17:32:38.982 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 17:32:46.483 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 8800 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 17:32:46.486 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:32:47.948 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:32:47.948 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 17:32:47.948 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 17:32:48.065 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:32:48.227 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:32:48.257 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 17:32:48.346 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 17:32:48.405 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 17:32:48.499 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 17:32:48.508 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 17:32:49.256 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:32:51.200 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 17:32:51.806 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:32:51.867 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 5.686 seconds (JVM running for 6.719)
+2024-08-28 17:32:51.868 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 17:33:00.007 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:33:02.067 [,] [redisMessageListenerContainer-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:02.067 [,] [redisMessageListenerContainer-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:03.945 [,] [redisMessageListenerContainer-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:03.945 [,] [redisMessageListenerContainer-3] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:07.481 [,] [redisMessageListenerContainer-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:07.481 [,] [redisMessageListenerContainer-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:09.585 [,] [redisMessageListenerContainer-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:09.585 [,] [redisMessageListenerContainer-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:11.677 [,] [redisMessageListenerContainer-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:11.677 [,] [redisMessageListenerContainer-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:13.336 [,] [redisMessageListenerContainer-11] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:13.336 [,] [redisMessageListenerContainer-12] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:15.681 [,] [redisMessageListenerContainer-14] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:15.681 [,] [redisMessageListenerContainer-13] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:18.211 [,] [redisMessageListenerContainer-15] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:18.211 [,] [redisMessageListenerContainer-16] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:20.203 [,] [redisMessageListenerContainer-17] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:20.203 [,] [redisMessageListenerContainer-18] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:28.167 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-28 17:33:28.173 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-28 17:33:35.602 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 3920 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-28 17:33:35.605 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:33:37.059 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:33:37.059 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-28 17:33:37.060 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-28 17:33:37.177 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:33:37.350 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:33:37.382 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-28 17:33:37.476 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-28 17:33:37.540 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-28 17:33:37.638 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-28 17:33:37.648 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-28 17:33:38.098 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:33:40.004 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-28 17:33:40.570 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8089"]
+2024-08-28 17:33:40.641 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 5.336 seconds (JVM running for 6.399)
+2024-08-28 17:33:40.641 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-28 17:33:50.014 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-28 17:33:51.466 [,] [redisMessageListenerContainer-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:51.466 [,] [redisMessageListenerContainer-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:53.547 [,] [redisMessageListenerContainer-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:53.547 [,] [redisMessageListenerContainer-3] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:55.425 [,] [redisMessageListenerContainer-5] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:55.425 [,] [redisMessageListenerContainer-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:59.046 [,] [redisMessageListenerContainer-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:33:59.046 [,] [redisMessageListenerContainer-7] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:34:01.133 [,] [redisMessageListenerContainer-9] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:34:01.133 [,] [redisMessageListenerContainer-10] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:34:03.016 [,] [redisMessageListenerContainer-11] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:34:03.016 [,] [redisMessageListenerContainer-12] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:34:05.451 [,] [redisMessageListenerContainer-14] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:34:05.451 [,] [redisMessageListenerContainer-13] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:34:07.095 [,] [redisMessageListenerContainer-15] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 17:34:07.095 [,] [redisMessageListenerContainer-16] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.037 [,] [redisMessageListenerContainer-23] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.040 [,] [redisMessageListenerContainer-31] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.040 [,] [redisMessageListenerContainer-34] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-30] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-22] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-27] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-21] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-20] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-32] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-18] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-26] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-29] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-25] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-33] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-17] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-19] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-24] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:42.041 [,] [redisMessageListenerContainer-28] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.834 [,] [redisMessageListenerContainer-29] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.834 [,] [redisMessageListenerContainer-32] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.834 [,] [redisMessageListenerContainer-19] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.835 [,] [redisMessageListenerContainer-18] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.835 [,] [redisMessageListenerContainer-21] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.836 [,] [redisMessageListenerContainer-27] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.836 [,] [redisMessageListenerContainer-26] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.887 [,] [redisMessageListenerContainer-28] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.887 [,] [redisMessageListenerContainer-30] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.887 [,] [redisMessageListenerContainer-24] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.888 [,] [redisMessageListenerContainer-17] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.888 [,] [redisMessageListenerContainer-20] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.944 [,] [redisMessageListenerContainer-33] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.976 [,] [redisMessageListenerContainer-23] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:44.977 [,] [redisMessageListenerContainer-22] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:45.001 [,] [redisMessageListenerContainer-31] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:45.082 [,] [redisMessageListenerContainer-25] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-28 20:33:45.110 [,] [redisMessageListenerContainer-34] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation

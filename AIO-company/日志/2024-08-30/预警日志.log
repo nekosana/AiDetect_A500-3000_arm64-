@@ -1,0 +1,372 @@
+2024-08-30 09:04:49,885 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:04:49,922 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：16584
+2024-08-30 09:05:00,014 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:05:00,018 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：10728
+2024-08-30 09:05:10,015 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:05:10,018 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：20424
+2024-08-30 09:05:20,010 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:05:20,014 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：4204
+2024-08-30 09:05:30,014 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:05:30,018 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：9908
+2024-08-30 09:09:34,532 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:09:34,587 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：23712
+2024-08-30 09:09:40,006 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:09:40,010 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：12304
+2024-08-30 09:09:50,003 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:09:50,006 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：20568
+2024-08-30 09:10:00,006 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:10:00,010 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：7420
+2024-08-30 09:14:38,342 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:14:38,410 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：20736
+2024-08-30 09:14:50,013 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:14:50,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：2668
+2024-08-30 09:15:00,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:15:00,021 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：24200
+2024-08-30 09:18:24,760 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:18:24,829 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：23304
+2024-08-30 09:18:30,004 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:18:30,007 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：8232
+2024-08-30 09:18:40,014 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:18:40,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：18188
+2024-08-30 09:18:50,013 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:18:50,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：7112
+2024-08-30 09:23:30,126 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:23:30,284 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：12976
+2024-08-30 09:23:40,012 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:23:40,015 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：4336
+2024-08-30 09:23:50,005 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:23:50,009 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：23860
+2024-08-30 09:29:11,243 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:29:11,290 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22284
+2024-08-30 09:29:20,003 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:29:20,006 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：3492
+2024-08-30 09:29:40,842 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:29:40,904 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：3760
+2024-08-30 09:29:56,374 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:29:56,419 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：12836
+2024-08-30 09:30:00,016 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:30:00,019 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：904
+2024-08-30 09:30:10,004 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:30:10,008 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：8652
+2024-08-30 09:30:20,015 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:30:20,018 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：20356
+2024-08-30 09:34:02,320 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:34:02,371 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：11428
+2024-08-30 09:34:10,016 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:34:10,020 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：20132
+2024-08-30 09:34:20,007 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:34:20,011 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：5044
+2024-08-30 09:34:30,012 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:34:30,016 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：18208
+2024-08-30 09:40:19,499 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:40:19,542 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：3512
+2024-08-30 09:40:30,008 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:40:30,013 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：9676
+2024-08-30 09:40:40,003 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:40:40,007 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22924
+2024-08-30 09:46:11,611 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:46:11,662 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：16696
+2024-08-30 09:46:20,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:46:20,020 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：21328
+2024-08-30 09:46:30,006 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:46:30,009 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：17488
+2024-08-30 09:46:40,012 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:46:40,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：12808
+2024-08-30 09:54:26,865 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:54:26,925 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：10212
+2024-08-30 09:54:30,016 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:54:30,019 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：21340
+2024-08-30 09:54:40,004 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:54:40,008 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：12360
+2024-08-30 09:54:50,014 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:54:50,018 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：7460
+2024-08-30 09:58:41,142 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:58:41,181 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：9416
+2024-08-30 09:58:50,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:58:50,020 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22668
+2024-08-30 09:59:00,013 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 09:59:00,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：24028
+2024-08-30 10:01:00,749 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:01:00,804 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22588
+2024-08-30 10:01:10,003 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:01:10,007 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：19648
+2024-08-30 10:01:20,014 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:01:20,018 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22024
+2024-08-30 10:05:34,233 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:05:34,294 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：20956
+2024-08-30 10:05:40,009 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:05:40,013 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：19924
+2024-08-30 10:05:50,006 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:05:50,010 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：15132
+2024-08-30 10:06:00,003 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:06:00,007 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22068
+2024-08-30 10:11:16,349 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:11:16,387 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：24408
+2024-08-30 10:11:20,013 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:11:20,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：23744
+2024-08-30 10:11:30,004 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:11:30,008 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：11524
+2024-08-30 10:11:40,006 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:11:40,010 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：2576
+2024-08-30 10:30:31,424 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:30:31,472 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：24180
+2024-08-30 10:30:40,008 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:30:40,013 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：9124
+2024-08-30 10:30:50,009 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:30:50,013 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：17184
+2024-08-30 10:31:00,012 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:31:00,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：11052
+2024-08-30 10:31:26,054 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 10:31:46,080 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：20026ms
+2024-08-30 10:31:47,482 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 10:32:07,285 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：19803ms
+2024-08-30 10:32:17,251 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 10:32:35,087 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：17836ms
+2024-08-30 10:35:47,351 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:35:47,393 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：19324
+2024-08-30 10:35:50,013 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:35:50,017 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：23696
+2024-08-30 10:36:00,001 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:36:00,005 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：8140
+2024-08-30 10:36:10,015 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:36:10,019 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：9852
+2024-08-30 10:37:09,953 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 10:37:28,359 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：18405ms
+2024-08-30 10:37:31,025 INFO [http-nio-127.0.0.1-8089-exec-10] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 10:37:48,816 INFO [http-nio-127.0.0.1-8089-exec-10] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：17791ms
+2024-08-30 10:41:08,085 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:41:08,144 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22136
+2024-08-30 10:41:20,009 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:41:20,013 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：23588
+2024-08-30 10:41:30,011 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:41:30,015 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：18132
+2024-08-30 10:41:50,659 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:41:50,710 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：1756
+2024-08-30 10:42:00,011 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:42:00,015 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：9632
+2024-08-30 10:42:10,001 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:42:10,004 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：3220
+2024-08-30 10:42:43,819 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 10:43:03,140 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：19321ms
+2024-08-30 10:43:05,890 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 10:43:25,084 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：19194ms
+2024-08-30 10:48:43,617 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:48:43,652 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22356
+2024-08-30 10:48:50,005 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:48:50,008 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22532
+2024-08-30 10:49:00,012 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:49:00,016 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：23656
+2024-08-30 10:49:10,006 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:49:10,010 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：20828
+2024-08-30 10:59:05,237 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:59:05,291 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：8260
+2024-08-30 10:59:10,014 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:59:10,019 INFO [scheduling-1] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：1700
+2024-08-30 10:59:59,015 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 10:59:59,065 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：12844
+2024-08-30 11:02:27,258 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 11:02:27,305 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：3520
+2024-08-30 11:02:30,682 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:02:30,692 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：10ms
+2024-08-30 11:03:33,053 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 11:03:33,069 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：16ms
+2024-08-30 11:03:44,374 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:03:44,394 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：19ms
+2024-08-30 11:05:17,805 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:05:17,840 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：35ms
+2024-08-30 11:14:55,403 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 11:14:55,448 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：20856
+2024-08-30 11:14:59,271 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:14:59,324 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：53ms
+2024-08-30 11:15:45,481 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 11:15:45,535 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：17008
+2024-08-30 11:15:46,985 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:15:47,051 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：65ms
+2024-08-30 11:16:26,652 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 11:16:26,722 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：70ms
+2024-08-30 11:16:58,410 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 11:16:58,450 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：19516
+2024-08-30 11:17:00,902 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:17:00,968 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：65ms
+2024-08-30 11:17:49,247 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 11:17:49,370 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22720
+2024-08-30 11:17:53,070 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:17:53,159 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：88ms
+2024-08-30 11:18:01,576 INFO [http-nio-127.0.0.1-8089-exec-7] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 11:18:01,653 INFO [http-nio-127.0.0.1-8089-exec-7] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：77ms
+2024-08-30 11:20:49,327 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 11:20:49,471 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：884
+2024-08-30 11:20:52,259 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:20:52,358 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：98ms
+2024-08-30 11:22:29,311 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 11:22:29,353 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：21876
+2024-08-30 11:22:48,117 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:22:48,225 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：107ms
+2024-08-30 11:23:15,119 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 11:23:15,165 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：7020
+2024-08-30 11:23:17,493 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:23:17,596 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：103ms
+2024-08-30 11:28:00,480 INFO [http-nio-127.0.0.1-8089-exec-4] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:28:00,683 INFO [http-nio-127.0.0.1-8089-exec-4] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：202ms
+2024-08-30 11:32:32,673 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 11:32:32,740 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：14256
+2024-08-30 11:33:12,927 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 11:33:13,122 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：195ms
+2024-08-30 15:49:39,548 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 15:49:39,584 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：15240
+2024-08-30 15:51:17,414 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 15:51:17,821 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：407ms
+2024-08-30 15:53:23,422 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 15:53:23,462 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：19452
+2024-08-30 15:53:25,988 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 15:53:26,207 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：219ms
+2024-08-30 15:56:32,125 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 15:56:32,232 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：4256
+2024-08-30 15:56:35,265 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 15:56:35,505 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：240ms
+2024-08-30 15:57:23,842 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 15:57:23,887 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22284
+2024-08-30 15:57:26,243 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 15:57:26,484 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：241ms
+2024-08-30 16:04:15,622 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:04:15,787 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：24200
+2024-08-30 16:04:20,596 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:04:20,840 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：244ms
+2024-08-30 16:05:31,395 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:05:31,438 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22092
+2024-08-30 16:05:34,159 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:05:34,372 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：213ms
+2024-08-30 16:08:29,234 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:08:29,276 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：24432
+2024-08-30 16:08:33,599 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:08:33,831 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：232ms
+2024-08-30 16:08:53,284 INFO [http-nio-127.0.0.1-8089-exec-5] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:08:53,520 INFO [http-nio-127.0.0.1-8089-exec-5] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：236ms
+2024-08-30 16:09:02,683 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:09:02,927 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：244ms
+2024-08-30 16:14:18,990 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:14:19,036 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：18476
+2024-08-30 16:14:29,202 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:14:29,451 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：249ms
+2024-08-30 16:14:30,439 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:14:30,692 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：253ms
+2024-08-30 16:21:17,623 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:21:17,759 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：16568
+2024-08-30 16:21:27,724 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:21:27,968 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：244ms
+2024-08-30 16:22:15,756 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:22:15,803 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：23000
+2024-08-30 16:22:25,082 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:22:25,310 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：228ms
+2024-08-30 16:23:41,229 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:23:41,287 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：3452
+2024-08-30 16:23:46,195 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:23:46,470 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：275ms
+2024-08-30 16:29:59,175 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:29:59,228 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：860
+2024-08-30 16:30:01,498 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:30:01,759 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：261ms
+2024-08-30 16:30:04,173 INFO [http-nio-127.0.0.1-8089-exec-10] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:30:04,408 INFO [http-nio-127.0.0.1-8089-exec-10] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：235ms
+2024-08-30 16:30:10,725 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:30:11,102 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：377ms
+2024-08-30 16:30:20,070 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:30:20,299 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：229ms
+2024-08-30 16:30:34,423 INFO [http-nio-127.0.0.1-8089-exec-7] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:30:34,659 INFO [http-nio-127.0.0.1-8089-exec-7] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：236ms
+2024-08-30 16:32:09,917 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:32:10,201 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：284ms
+2024-08-30 16:34:48,600 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:34:48,651 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：21144
+2024-08-30 16:34:53,203 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:34:53,508 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：305ms
+2024-08-30 16:37:04,051 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:37:04,282 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：11576
+2024-08-30 16:37:14,151 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:37:14,431 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：280ms
+2024-08-30 16:37:22,156 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:37:23,122 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：966ms
+2024-08-30 16:37:25,156 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:37:25,494 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：337ms
+2024-08-30 16:40:30,741 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:40:30,871 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：14648
+2024-08-30 16:40:35,285 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:40:35,618 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：332ms
+2024-08-30 16:40:36,971 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:40:37,353 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：381ms
+2024-08-30 16:42:41,522 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:42:41,587 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：21636
+2024-08-30 16:43:09,397 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:43:09,732 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：335ms
+2024-08-30 16:43:10,724 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:43:11,076 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：352ms
+2024-08-30 16:43:23,299 INFO [http-nio-127.0.0.1-8089-exec-4] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:43:23,746 INFO [http-nio-127.0.0.1-8089-exec-4] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：447ms
+2024-08-30 16:43:38,179 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:43:38,559 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：380ms
+2024-08-30 16:43:39,350 INFO [http-nio-127.0.0.1-8089-exec-4] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:43:39,685 INFO [http-nio-127.0.0.1-8089-exec-4] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：335ms
+2024-08-30 16:43:57,732 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:43:58,125 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：393ms
+2024-08-30 16:44:08,906 INFO [http-nio-127.0.0.1-8089-exec-10] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:44:09,223 INFO [http-nio-127.0.0.1-8089-exec-10] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：317ms
+2024-08-30 16:44:11,474 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:44:11,855 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：381ms
+2024-08-30 16:44:12,633 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:44:13,000 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：367ms
+2024-08-30 16:45:22,392 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:45:22,770 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：22772
+2024-08-30 16:45:28,325 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:45:28,696 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：370ms
+2024-08-30 16:45:36,565 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:45:36,954 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：388ms
+2024-08-30 16:45:38,219 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:45:38,582 INFO [http-nio-127.0.0.1-8089-exec-2] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：363ms
+2024-08-30 16:46:08,734 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:46:09,103 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：369ms
+2024-08-30 16:50:08,528 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:50:08,902 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：374ms
+2024-08-30 16:50:10,093 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:50:10,440 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：347ms
+2024-08-30 16:50:14,203 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:50:14,633 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：430ms
+2024-08-30 16:53:28,754 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:53:28,825 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：3664
+2024-08-30 16:54:01,340 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:54:01,382 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：19676
+2024-08-30 16:54:05,818 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:54:06,227 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：408ms
+2024-08-30 16:54:26,639 INFO [http-nio-127.0.0.1-8089-exec-5] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 16:54:27,069 INFO [http-nio-127.0.0.1-8089-exec-5] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：429ms
+2024-08-30 16:54:35,798 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:54:36,231 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：432ms
+2024-08-30 16:55:44,494 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 16:55:44,538 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：19452
+2024-08-30 16:55:55,140 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 16:55:55,541 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：401ms
+2024-08-30 17:02:44,900 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 17:02:44,962 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：4608
+2024-08-30 17:02:57,211 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 17:02:57,760 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：548ms
+2024-08-30 17:04:31,425 INFO [http-nio-127.0.0.1-8089-exec-5] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 17:04:31,910 INFO [http-nio-127.0.0.1-8089-exec-5] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：485ms
+2024-08-30 17:04:44,260 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 17:04:44,789 INFO [http-nio-127.0.0.1-8089-exec-8] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：529ms
+2024-08-30 17:17:35,455 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 17:17:35,491 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：23872
+2024-08-30 17:17:38,078 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 17:17:38,707 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：629ms
+2024-08-30 17:18:40,896 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到目标识别之后的摄像头列表页面方法开始执行
+2024-08-30 17:18:41,521 INFO [http-nio-127.0.0.1-8089-exec-6] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到目标识别之后的摄像头列表页面成功！耗时：624ms
+2024-08-30 17:27:58,160 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 17:27:58,203 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：8380
+2024-08-30 17:28:02,355 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 17:28:03,040 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：685ms
+2024-08-30 17:29:09,515 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 17:29:09,552 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：12584
+2024-08-30 17:29:17,526 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 17:29:18,192 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：665ms
+2024-08-30 17:33:12,261 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:58] cmd /k start ffmpeg -rtsp_transport tcp -i rtsp://admin:lbx123456@192.168.0.3:554 -vcodec libx264 -r 25 -preset ultrafast -tune zerolatency -f flv -an rtmp://localhost:1935/myapp/streamf110db67-f803-4104-a8d7-e155197c6c04
+2024-08-30 17:33:12,307 INFO [main] c.s.a.a.c.u.ProcessUtil [ProcessUtil.java:78] 启动推流进程成功，进程：23504
+2024-08-30 17:33:14,117 INFO [http-nio-127.0.0.1-8089-exec-5] c.s.a.a.c.u.Aspect [Aspect.java:48] 跳转到摄像头列表页面方法开始执行
+2024-08-30 17:33:14,928 INFO [http-nio-127.0.0.1-8089-exec-5] c.s.a.a.c.u.Aspect [Aspect.java:53] 跳转到摄像头列表页面成功！耗时：811ms

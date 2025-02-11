@@ -1,0 +1,95 @@
+2024-08-31 15:00:17.019 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 21056 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-31 15:00:17.022 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-31 15:00:18.784 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-127.0.0.1-8089"]
+2024-08-31 15:00:18.784 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-31 15:00:18.785 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-31 15:00:18.912 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-31 15:00:19.095 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-31 15:00:19.128 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-31 15:00:19.224 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-31 15:00:19.292 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-31 15:00:19.421 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-31 15:00:19.432 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-31 15:00:19.857 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-31 15:00:21.856 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-31 15:00:22.480 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-127.0.0.1-8089"]
+2024-08-31 15:00:22.541 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 5.891 seconds (JVM running for 7.135)
+2024-08-31 15:00:22.541 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-31 15:00:24.475 [,] [redisMessageListenerContainer-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:00:24.475 [,] [redisMessageListenerContainer-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:00:25.041 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-31 15:00:25.058 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-31 15:00:25.068 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-31 15:00:25.068 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-31 15:00:25.070 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:00:30.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-31 15:01:41.765 [,] [redisMessageListenerContainer-3] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:01:41.766 [,] [redisMessageListenerContainer-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:02:05.765 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-31 15:02:05.770 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-31 15:02:09.050 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 25112 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-31 15:02:09.054 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-31 15:02:10.700 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-127.0.0.1-8089"]
+2024-08-31 15:02:10.700 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-31 15:02:10.700 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-31 15:02:10.825 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-31 15:02:11.003 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-31 15:02:11.036 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-31 15:02:11.138 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-31 15:02:11.207 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-31 15:02:11.315 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-31 15:02:11.325 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-31 15:02:11.755 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-31 15:02:13.754 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-31 15:02:14.298 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-127.0.0.1-8089"]
+2024-08-31 15:02:14.356 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 5.664 seconds (JVM running for 6.847)
+2024-08-31 15:02:14.356 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-31 15:02:18.760 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-31 15:02:18.778 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-31 15:02:18.787 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-31 15:02:18.797 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-31 15:02:18.799 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:02:20.010 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-31 15:02:27.714 [,] [http-nio-127.0.0.1-8089-exec-3] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-31 15:02:27.714 [,] [http-nio-127.0.0.1-8089-exec-3] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:02:31.686 [,] [http-nio-127.0.0.1-8089-exec-5] INFO  c.s.a.b.a.AuthorityController - [authority,32] - 进入权限管理页面成功！
+2024-08-31 15:02:43.253 [,] [redisMessageListenerContainer-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:02:43.253 [,] [redisMessageListenerContainer-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:03:17.321 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-31 15:03:17.327 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+2024-08-31 15:03:20.392 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_411 on DESKTOP-0QJEBFD with PID 584 (E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company\target\classes started by neko in E:\AIO_2024.08.16\AIO - 副本 - 测试\AIO-company)
+2024-08-31 15:03:20.395 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-31 15:03:21.956 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-127.0.0.1-8089"]
+2024-08-31 15:03:21.957 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-31 15:03:21.957 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-31 15:03:22.076 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-31 15:03:22.257 [,] [main] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-31 15:03:22.291 [,] [main] INFO  o.hibernate.Version - [logVersion,44] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-08-31 15:03:22.402 [,] [main] INFO  o.h.a.common.Version - [<clinit>,56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-31 15:03:22.473 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-31 15:03:22.586 [,] [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-31 15:03:22.802 [,] [main] INFO  o.h.dialect.Dialect - [<init>,175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-31 15:03:23.189 [,] [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - [initiateService,52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-31 15:03:25.141 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: initFFmpeg
+2024-08-31 15:03:25.679 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-127.0.0.1-8089"]
+2024-08-31 15:03:25.737 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 5.679 seconds (JVM running for 6.774)
+2024-08-31 15:03:25.737 [,] [main] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: onApplicationEvent
+2024-08-31 15:03:27.466 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-31 15:03:27.481 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-31 15:03:27.489 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-31 15:03:27.490 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-31 15:03:27.491 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:03:29.696 [,] [http-nio-127.0.0.1-8089-exec-6] INFO  c.s.a.b.a.AuthorityController - [authority,32] - 进入权限管理页面成功！
+2024-08-31 15:03:30.000 [,] [scheduling-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: monitorFfmpegProcess
+2024-08-31 15:03:31.534 [,] [http-nio-127.0.0.1-8089-exec-5] INFO  c.s.a.b.a.AuthorityController - [authority,32] - 进入权限管理页面成功！
+2024-08-31 15:03:42.723 [,] [http-nio-127.0.0.1-8089-exec-5] INFO  c.s.a.b.a.AuthorityController - [authority,32] - 进入权限管理页面成功！
+2024-08-31 15:03:43.134 [,] [http-nio-127.0.0.1-8089-exec-2] INFO  c.s.a.b.d.DiskCapacityController - [diskCapacityManagement,69] - 进入磁盘管理页面成功！
+2024-08-31 15:03:45.602 [,] [redisMessageListenerContainer-2] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:03:45.602 [,] [redisMessageListenerContainer-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:03:52.589 [,] [http-nio-127.0.0.1-8089-exec-10] INFO  c.s.a.b.a.AuthorityController - [authority,32] - 进入权限管理页面成功！
+2024-08-31 15:03:54.682 [,] [http-nio-127.0.0.1-8089-exec-7] INFO  c.s.a.b.a.AuthorityController - [authority,32] - 进入权限管理页面成功！
+2024-08-31 15:03:55.713 [,] [http-nio-127.0.0.1-8089-exec-1] INFO  c.s.a.b.a.AuthorityController - [authority,32] - 进入权限管理页面成功！
+2024-08-31 15:04:49.160 [,] [redisMessageListenerContainer-3] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:04:49.160 [,] [redisMessageListenerContainer-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-31 15:05:10.136 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-31 15:05:10.141 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.

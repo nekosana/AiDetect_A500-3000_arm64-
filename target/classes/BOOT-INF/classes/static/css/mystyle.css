@@ -1,0 +1,228 @@
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(line-icons.css);
+
+div.private_information{
+    margin-left:20px ;
+    margin-right: 20px;
+    float: left;
+    font-size: 25px;
+}
+div.padding{
+    margin: 0px 20px 0px 20px;
+    height: 250px;
+    border-bottom: 1px dotted black;
+}
+.private_information td{
+    width: 400px;
+    height: 42px;
+}
+div.index{
+    margin: 20px;
+}
+div.request{
+    height: 100%;
+    margin: 20px;
+    padding-left:50px ;
+}
+div.review{
+    margin: 20px;
+    font-size: 20px;
+}
+div.review-opinion{
+    margin: 20px;
+}
+div.review-reason{
+    margin-left: 20px;
+    height: 300px;
+}
+.index span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.request input{
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    width: 300px; height: 40px;
+}
+.request table{
+    display: inline;
+}
+.request form{
+    margin:20px 20px ;
+}
+.request td{
+    width: 100px;
+    height: 50px;
+}
+
+div.description{
+    position: absolute;
+    top: 265px;
+    left: 750px;
+}
+.description span{
+    top: 0px;
+}
+.request .input-group-description{
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    width: 400px; height: 235px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    vertical-align: top;
+}
+ .sign .btn-submit{
+    font-size: 25px;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 200px;
+}
+.sign input{
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    width: 300px; height: 40px;
+}
+.sign form{
+    margin:20px 20px ;
+}
+.sign td{
+    width: 150px;
+    height: 50px;
+}
+.review td{
+    width: 120px;
+    height: 50px;
+}
+.review td.context{
+    width: 250px;
+    height: 50px;
+    text-align: left;
+}
+.review .review-description{
+    margin-left: 120px;
+    width: 1200px;
+}
+table.review{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.review-reason input{
+    width: 500px;
+    height: 240px;
+    margin-left: 50px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: gray;
+}
+.review-reason span{
+    text-align: center;
+    vertical-align: top;
+}
+.review .btn-submit{
+    font-size: 25px;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 200px;
+    margin-left: 200px;
+}
+ .design .btn-submit{
+    font-size: 25px;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 200px;
+}
+.design input{
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    width: 300px; height: 40px;
+}
+.design form{
+    margin:20px 20px ;
+}
+.design td{
+    width: 150px;
+    height: 75px;
+}
+td.design-table{
+    width: 100px;
+    text-align: right;
+}
+td.design-table1{
+    width: 50px;
+}
+td.design-table2{
+    width: 120px;
+    text-align: right;
+}
+td.design-table3{
+    width: 150px;
+    text-align: right;
+}
+ .product .btn-submit{
+    font-size: 25px;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 200px;
+}
+.product input{
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    width: 300px; height: 40px;
+}
+.product form{
+    margin:20px 20px ;
+}
+.product td{
+    width: 150px;
+    height: 75px;
+    text-align: right;
+}
+td.product-table{
+    width: 100px;
+    text-align: right;
+}
+td.product-table1{
+    width: 50px;
+}
+td.product-table2{
+    width: 120px;
+    text-align: right;
+}
+td.product-table3{
+    width: 150px;
+    text-align: right;
+}
+.assemble input{
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    width: 300px; height: 40px;
+}
+.assemble form{
+    margin:20px 20px ;
+}
+.assemble td{
+    width: 150px;
+    height: 75px;
+    text-align: right;
+}
+.assemble .btn-submit{
+    font-size: 25px;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 300px;
+    height: 50px;
+}

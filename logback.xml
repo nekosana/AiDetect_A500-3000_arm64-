@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<!-- 项目名称 -->
+	<property name="projectname" value="一体机" />
+	<!-- 日志存放路径 -->
+<!--	<property name="log.path" value="/home/user/AIO/日志/" />-->
+	<property name="log.path" value="D:/项目/AIO/日志/" />
+	<!-- 时间戳 -->
+	<timestamp key="bySecond" datePattern="yyyy-MM-dd"/>
+	<!-- 日志输出格式 -->
+	<property name="log.pattern"
+		value="%d{yyy-MM-dd HH:mm:ss.SSS} [%X{X-B3-TraceId:-},%X{X-B3-SpanId:-}] [%thread] %-5level %logger{20} - [%method,%line] - %msg%n" />
+	<!-- 控制台输出 -->
+	<appender name="console"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>${log.pattern}</pattern>
+		</encoder>
+	</appender>
+	<!-- 系统日志输出 -->
+	<appender name="file_info"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.path}/${bySecond}/info.log</file>
+		<!-- 循环政策：基于时间创建日志文件 -->
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- 日志文件名格式 -->
+			<fileNamePattern>${log.path}/${bySecond}/info.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+			<!-- 日志最大的历史 60天 -->
+			<maxHistory>60</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>${log.pattern}</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<!-- 过滤的级别 -->
+			<level>INFO</level>
+			<!-- 匹配时的操作：接收（记录） -->
+			<onMatch>ACCEPT</onMatch>
+			<!-- 不匹配时的操作：拒绝（不记录） -->
+			<onMismatch>DENY</onMismatch>
+		</filter>
+	</appender>
+	<appender name="file_error"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${log.path}/${bySecond}/error.log</file>
+		<!-- 循环政策：基于时间创建日志文件 -->
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- 日志文件名格式 -->
+			<fileNamePattern>${log.path}/${bySecond}/error.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+			<!-- 日志最大的历史 60天 -->
+			<maxHistory>60</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>${log.pattern}</pattern>
+		</encoder>
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			 <!-- 过滤的级别 -->
+			<level>ERROR</level>
+			<!-- 匹配时的操作：接收（记录） -->
+			<onMatch>ACCEPT</onMatch>
+			<!-- 不匹配时的操作：拒绝（不记录） -->
+			<onMismatch>DENY</onMismatch>
+		</filter>
+	</appender>
+	<!-- 系统模块日志级别控制 -->
+	<logger name="com.loop" level="info" />
+	<!-- Spring日志级别控制 -->
+	<logger name="org.springframework" level="warn" />
+	<root level="info">
+		<appender-ref ref="console" />
+	</root>
+	<!--系统操作日志 -->
+	<root level="info">
+		<appender-ref ref="file_info" />
+		<appender-ref ref="file_error" />
+	</root>
+
+	<appender name="User_Operation" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!--		<file>./日志test/用户操作日志.log</file>-->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.path}/%d{yyyy-MM-dd}/用户操作日志.log</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="Monitor" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!--		<file>./日志test/监测点日志.log</file>-->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.path}/%d{yyyy-MM-dd}/监测点日志.log</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="Alarm" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!--		<file>./日志test/预警日志.log</file>-->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.path}/%d{yyyy-MM-dd}/预警日志.log</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="Storage" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!--		<file>./日志test/存储日志.log</file>-->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${log.path}/%d{yyyy-MM-dd}/存储日志.log</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="com.shark.aio.operation" level="INFO" additivity="false">
+		<appender-ref ref="User_Operation" />
+	</logger>
+	<logger name="com.shark.aio.base.controller" level="INFO" additivity="false">
+		<appender-ref ref="User_Operation" />
+	</logger>
+	<logger name="com.shark.aio.user" level="INFO" additivity="false">
+		<appender-ref ref="User_Operation" />
+	</logger>
+	<logger name="com.shark.aio.base.information" level="INFO" additivity="false">
+		<appender-ref ref="User_Operation" />
+	</logger>
+
+
+
+	<logger name="com.shark.aio.data.video.service.VideoService" level="INFO" additivity="false">
+		<appender-ref ref="Monitor" />
+	</logger>
+
+	<logger name="com.shark.aio.alarm" level="INFO" additivity="false">
+		<appender-ref ref="Alarm" />
+	</logger>
+
+	<logger name="com.shark.aio.data" level="INFO" additivity="false">
+		<appender-ref ref="Storage" />
+	</logger>
+
+	<!--	<root level="INFO">-->
+	<!--		<appender-ref ref="User_Operation" />-->
+	<!--	</root>-->
+
+
+</configuration>

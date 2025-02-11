@@ -1,0 +1,439 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en" xmlns:th="http://www.thymeleaf.org">-->
+<!--  <head>-->
+<!--    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+<!--    &lt;!&ndash; Meta, title, CSS, favicons, etc. &ndash;&gt;-->
+<!--    <meta charset="utf-8">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--	<link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico" />-->
+
+<!--    <title>智能水质监测系统 </title>-->
+
+<!--    &lt;!&ndash; Bootstrap &ndash;&gt;-->
+<!--    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">-->
+<!--    &lt;!&ndash; Font Awesome &ndash;&gt;-->
+<!--    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">-->
+<!--    &lt;!&ndash; NProgress &ndash;&gt;-->
+<!--    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">-->
+<!--    &lt;!&ndash; iCheck &ndash;&gt;-->
+<!--    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">-->
+<!--	-->
+<!--    &lt;!&ndash; bootstrap-progressbar &ndash;&gt;-->
+<!--    <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">-->
+<!--    &lt;!&ndash; JQVMap &ndash;&gt;-->
+<!--    <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>-->
+<!--    &lt;!&ndash; bootstrap-daterangepicker &ndash;&gt;-->
+<!--    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">-->
+
+<!--    &lt;!&ndash; Custom Theme Style &ndash;&gt;-->
+<!--    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">-->
+<!--  </head>-->
+
+<!--  <body class="nav-md">-->
+<!--  <div class="container body">-->
+<!--    <div class="main_container">-->
+<!--      <div th:replace="~{blank::menu}"></div>-->
+
+<!--      &lt;!&ndash; 右上角图标 &ndash;&gt;-->
+<!--      <div th:replace="~{blank::top_nav}"></div>-->
+<!--      &lt;!&ndash; /top navigation &ndash;&gt;-->
+
+
+
+
+<!--      &lt;!&ndash; 主页面 &ndash;&gt;-->
+<!--      <div class="right_col" role="main">-->
+<!--        <div class="" th:object="${allVideos}" th:with="baseURL='/videoMonitor'">-->
+<!--          <div class="page-title">-->
+<!--            <div class="title_left">-->
+<!--              <h3><small>视频监控</small>      <p th:text="${stream}"></p>-->
+<!--                <p th:text="${ip}"></p></h3>-->
+
+<!--            </div>-->
+
+<!--            <div class="title_right">-->
+<!--              <div class="col-md-5 col-sm-5   form-group pull-right top_search">-->
+<!--                &lt;!&ndash;<form th:action="@{${baseURL}+'/1/'+*{pageSize}}" method="post" id="mohuForm">-->
+<!--                  <div class="input-group">-->
+
+<!--                    <input name="feature" type="text" class="form-control" placeholder="搜索...">-->
+<!--                    <span class="input-group-btn">-->
+<!--                      <button class="btn btn-default" type="button" onclick="document.getElementById('mohuForm').submit()">确认</button>-->
+<!--                    </span>-->
+
+<!--                  </div>-->
+<!--                </form>&ndash;&gt;-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--          <div class="clearfix"></div>-->
+
+<!--          <div class="row">-->
+
+<!--            <div class="col-md-12 col-sm-12">-->
+<!--              <div class="x_panel">-->
+<!--                <div class="x_title">-->
+<!--                  <h2>视频监控</h2>-->
+<!--                  <ul class="nav navbar-right panel_toolbox">-->
+<!--                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>-->
+<!--                    </li>-->
+<!--                    <li><a class="close-link"><i class="fa fa-close"></i></a>-->
+<!--                    </li>-->
+<!--                  </ul>-->
+<!--                  <div class="clearfix"></div>-->
+<!--                </div>-->
+<!--                <div class="x_content">-->
+<!--                  <div class="row">-->
+<!--                    &lt;!&ndash;<div class="col-sm-6">-->
+<!--                      <div class="dataTables_length" >-->
+<!--                        <form id="pageSizeForm" th:action="@{${baseURL}+'/1/'}">-->
+<!--                          <label>-->
+
+<!--                            显示 <select id="pageSize" class="input-sm">-->
+<!--                            <option value="10" th:selected="*{pageSize} eq '10'">10</option>-->
+<!--                            <option value="25" th:selected="*{pageSize} eq '25'">25</option>-->
+<!--                            <option value="50" th:selected="*{pageSize} eq '50'">50</option>-->
+<!--                            <option value="100" th:selected="*{pageSize} eq '100'">100</option>-->
+<!--                          </select> 条记录-->
+
+<!--                          </label>-->
+<!--                        </form>-->
+
+<!--                      </div>-->
+<!--                    </div>&ndash;&gt;-->
+<!--                    <video style="height: auto;width:98%;" id="videoElement" muted autoplay></video>-->
+<!--                    <script type="text/javascript">-->
+
+<!--                    </script>-->
+
+<!--                  </div>-->
+
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+
+
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash; 主页面结束 &ndash;&gt;-->
+
+
+
+
+<!--        &lt;!&ndash; footer content 页脚：可以指代开发公司？&ndash;&gt;-->
+<!--&lt;!&ndash;        <footer>&ndash;&gt;-->
+<!--&lt;!&ndash;          <div class="pull-middle">&ndash;&gt;-->
+<!--&lt;!&ndash;            Gentelella - Bootstrap Admin Template by <a th:href="@{/https://colorlib.com">Colorlib</a>&ndash;&gt;-->
+<!--&lt;!&ndash;          </div>&ndash;&gt;-->
+<!--&lt;!&ndash;          <div class="clearfix"></div>&ndash;&gt;-->
+<!--&lt;!&ndash;        </footer>&ndash;&gt;-->
+<!--        &lt;!&ndash; /footer content &ndash;&gt;-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash; jQuery &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>-->
+<!--    &lt;!&ndash; Bootstrap &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>-->
+<!--    &lt;!&ndash; FastClick &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>-->
+<!--    &lt;!&ndash; NProgress &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/nprogress/nprogress.js}"></script>-->
+<!--    &lt;!&ndash; Chart.js &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>-->
+<!--    &lt;!&ndash; gauge.js &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>-->
+<!--    &lt;!&ndash; bootstrap-progressbar &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>-->
+<!--    &lt;!&ndash; iCheck &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/iCheck/icheck.min.js}"></script>-->
+<!--    &lt;!&ndash; Skycons &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/skycons/skycons.js}"></script>-->
+<!--    &lt;!&ndash; Flot &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/Flot/jquery.flot.js}"></script>-->
+<!--    <script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>-->
+<!--    <script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>-->
+<!--    <script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>-->
+<!--    <script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>-->
+<!--    &lt;!&ndash; Flot plugins &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>-->
+<!--    <script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>-->
+<!--    <script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>-->
+<!--    &lt;!&ndash; DateJS &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/DateJS/build/date.js}"></script>-->
+<!--    &lt;!&ndash; JQVMap &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>-->
+<!--    <script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>-->
+<!--    <script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>-->
+<!--    &lt;!&ndash; bootstrap-daterangepicker &ndash;&gt;-->
+<!--    <script th:src="@{/vendors/moment/min/moment.min.js}"></script>-->
+<!--    <script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>-->
+
+<!--    &lt;!&ndash; Custom Theme Scripts &ndash;&gt;-->
+<!--    <script th:src="@{/build/js/custom.min.js}"></script>-->
+<!--    <script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.5.0/flv.min.js"></script>-->
+<!--    <script th:src="@{/js/video-play.js}"></script>-->
+
+
+
+<!--  <script th:inline="javascript">-->
+<!--    /*<![CDATA[*/-->
+<!--    $(function(){-->
+<!--      var msg = /*[[${msg}]]*/null;-->
+<!--      if(msg!=null){F-->
+<!--        alert(msg);-->
+<!--      }-->
+<!--    })-->
+<!--    /*]]>*/-->
+<!--  </script>-->
+<!--  <script th:inline="javascript">-->
+<!--    $(document).ready(function() {-->
+<!--      var streams = [[${stream}]];-->
+<!--      var ip = [[${ip}]];-->
+<!--      // var streams = ['[streamf110db67-f803-4104-a8d7-e155197c6c04]'];-->
+<!--      // var ip = ['192.168.0.3'];-->
+
+<!--      console.log("ip=" + ip)-->
+<!--      if (ip != undefined) {-->
+<!--        startVideo(streams, ip);-->
+<!--      }-->
+
+<!--    });-->
+<!--    //这是当关闭页面或浏览器的时候调用后台的方法把进程给停掉-->
+<!--    /*window.onbeforeunload = function(e) {-->
+<!--      $.ajax({-->
+<!--        url:"/quitVideoPlay",-->
+<!--        type:"post",-->
+<!--        data:{-->
+<!--          stream:[[${stream}]]-->
+<!--        },-->
+<!--        async:true,-->
+<!--        success: function (data){-->
+<!--        }-->
+<!--      })-->
+<!--    }*/-->
+<!--  </script>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico" />
+
+  <title>智能水质监测系统 </title>
+
+  <!-- Bootstrap -->
+  <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+  <!-- NProgress -->
+  <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+  <!-- iCheck -->
+  <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+
+  <!-- bootstrap-progressbar -->
+  <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">
+  <!-- JQVMap -->
+  <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>
+  <!-- bootstrap-daterangepicker -->
+  <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+
+  <!-- Custom Theme Style -->
+  <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+<div class="container body">
+  <div class="main_container">
+    <div th:replace="~{blank::menu}"></div>
+
+    <!-- 右上角图标 -->
+    <div th:replace="~{blank::top_nav}"></div>
+    <!-- /top navigation -->
+
+
+
+
+    <!-- 主页面 -->
+    <div class="right_col" role="main">
+      <div class="" th:object="${allVideos}" th:with="baseURL='/videoMonitor2'">
+        <div class="page-title">
+          <div class="title_left">
+            <h3><small>视频监控</small></h3>
+
+          </div>
+
+          <div class="title_right">
+            <div class="col-md-5 col-sm-5   form-group pull-right top_search">
+              <!--<form th:action="@{${baseURL}+'/1/'+*{pageSize}}" method="post" id="mohuForm">
+                <div class="input-group">
+
+                  <input name="feature" type="text" class="form-control" placeholder="搜索...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" onclick="document.getElementById('mohuForm').submit()">确认</button>
+                  </span>
+
+                </div>
+              </form>-->
+            </div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+
+          <div class="col-md-12 col-sm-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2>视频监控</h2>
+                <ul class="nav navbar-right panel_toolbox">
+                  <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                  </li>
+                  <li><a class="close-link"><i class="fa fa-close"></i></a>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+
+                <iframe src="/embed" width="100%" height="800px"></iframe>
+
+              </div>
+              <div class="x_content">
+                <div class="row">
+                  <!--<div class="col-sm-6">
+                    <div class="dataTables_length" >
+                      <form id="pageSizeForm" th:action="@{${baseURL}+'/1/'}">
+                        <label>
+
+                          显示 <select id="pageSize" class="input-sm">
+                          <option value="10" th:selected="*{pageSize} eq '10'">10</option>
+                          <option value="25" th:selected="*{pageSize} eq '25'">25</option>
+                          <option value="50" th:selected="*{pageSize} eq '50'">50</option>
+                          <option value="100" th:selected="*{pageSize} eq '100'">100</option>
+                        </select> 条记录
+
+                        </label>
+                      </form>
+
+                    </div>
+                  </div>-->
+                  <video style="height: auto;width:98%;" id="videoElement" muted autoplay></video>
+                  <script type="text/javascript">
+
+                  </script>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- 主页面结束 -->
+
+
+
+
+    <!-- footer content 页脚：可以指代开发公司？-->
+    <!--        <footer>-->
+    <!--          <div class="pull-middle">-->
+    <!--            Gentelella - Bootstrap Admin Template by <a th:href="@{/https://colorlib.com">Colorlib</a>-->
+    <!--          </div>-->
+    <!--          <div class="clearfix"></div>-->
+    <!--        </footer>-->
+    <!-- /footer content -->
+  </div>
+</div>
+
+<!-- jQuery -->
+<script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+<!-- Bootstrap -->
+<script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+<!-- FastClick -->
+<script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+<!-- NProgress -->
+<script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+<!-- Chart.js -->
+<script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>
+<!-- gauge.js -->
+<script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>
+<!-- bootstrap-progressbar -->
+<script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+<!-- iCheck -->
+<script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+<!-- Skycons -->
+<script th:src="@{/vendors/skycons/skycons.js}"></script>
+<!-- Flot -->
+<script th:src="@{/vendors/Flot/jquery.flot.js}"></script>
+<script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>
+<script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>
+<script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>
+<script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>
+<!-- Flot plugins -->
+<script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>
+<script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>
+<script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>
+<!-- DateJS -->
+<script th:src="@{/vendors/DateJS/build/date.js}"></script>
+<!-- JQVMap -->
+<script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>
+<script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>
+<script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>
+<!-- bootstrap-daterangepicker -->
+<script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+<script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+
+<!-- Custom Theme Scripts -->
+<script th:src="@{/build/js/custom.min.js}"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.5.0/flv.min.js"></script>
+<script th:src="@{/js/video-play.js}"></script>
+
+
+
+<script th:inline="javascript">
+  /*<![CDATA[*/
+  $(function(){
+    var msg = /*[[${msg}]]*/null;
+    if(msg!=null){F
+      alert(msg);
+    }
+  })
+  /*]]>*/
+</script>
+<script th:inline="javascript">
+  // $(document).ready(function() {
+  //   var streams = [[${stream}]];
+  //   var ip = [[${ip}]];
+  //   console.log("ip="+ip)
+  //   if(ip!=undefined){
+  //     startVideo(streams,ip);
+  //   }
+  //
+  // });
+  //这是当关闭页面或浏览器的时候调用后台的方法把进程给停掉
+  /*window.onbeforeunload = function(e) {
+    $.ajax({
+      url:"/quitVideoPlay",
+      type:"post",
+      data:{
+        stream:[[${stream}]]
+      },
+      async:true,
+      success: function (data){
+      }
+    })
+  }*/
+</script>
+</body>
+</html>

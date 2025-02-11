@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico" />
+
+    <title>智能水质监测系统 </title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">
+    <!-- JQVMap -->
+    <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+    <style>
+      div.sub-wnd{
+        width:33%;
+        height: 18%;
+      }
+    </style>
+  </head>
+
+  <body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div th:replace="~{blank::menu}"></div>
+
+      <!-- 右上角图标 -->
+      <div th:replace="~{blank::top_nav}"></div>
+      <!-- /top navigation -->
+
+
+
+
+      <!-- 主页面 -->
+      <div class="right_col" role="main">
+        <div class="" >
+          <div class="page-title">
+            <div class="title_left">
+              <h3><small>用户管理</small></h3>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>全部用户信息</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                <div class="col-md-12 col-sm-12  ">
+
+                    <div class="row" id="allUser">
+                        <div class="col-lg-9 col-md-12">
+                          <div class="panel panel-default">
+
+                            <div class="panel-body">
+                              <table class="table bootstrap-datatable countries">
+                                <thead>
+                                <tr>
+                                  <th>用户名</th>
+                                  <th>电话</th>
+                                  <th>电子邮件</th>
+                                  <th>性别</th>
+                                  <th>工号</th>
+                                  <th>岗位名称</th>
+                                  <th></th>
+                                  <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr th:each="ausr:${allUser}">
+                                  <td th:text="${ausr.userName}"></td>
+                                  <td th:text="${ausr.phone}"></td>
+                                  <td th:text="${ausr.email}"></td>
+                                  <td th:if="${ausr.gender}==0">保密</td>
+                                  <td th:if="${ausr.gender}==1">女</td>
+                                  <td th:if="${ausr.gender}==2">男</td>
+                                  <td th:text="${ausr.number}"></td>
+                                  <td th:text="${ausr.postName}"></td>
+<!--                                  <td><a th:href="@{'/allUserEntity'}" class="update"  >修改用户信息</a></td>-->
+                                  <td><a onclick="return deleteUser()" th:href="@{/deleteUser(postId=${ausr.postId},userName=${ausr.userName})}" class="delete"  >删除该用户</a></td>
+                                </tr>
+                                </tbody>
+                              </table>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <input type="hidden" id="error" th:value="${error}">
+
+
+
+
+
+
+          </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 ">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>修改用户信息</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <br />
+                  <form th:action="@{/updataOneUserEntity}" class="form-horizontal form-label-left">
+
+                    <div class="form-group row">
+                      <label class="control-label col-md-3 col-sm-3 ">用户：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <select class="form-control" name="originUserName" id="userNameSelect">
+                          <option th:each="ausr:${allUser}" th:text="${ausr.userName}" th:value="${ausr.userName}"></option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">手机号：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <input type="text" class="form-control" name="phone" id="newPhone">
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">电子邮件：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <input type="text" class="form-control" name="email" id="newEmail">
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">工号：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <input type="text" class="form-control" name="number" id="newNumber">
+                      </div>
+                    </div>
+                    <div class="form-group row ">
+                      <label class="control-label col-md-3 col-sm-3 ">岗位名称：</label>
+                      <div class="col-md-9 col-sm-9 ">
+                        <select class="form-control" name="postName" id="newPostName">
+<!--                          <option th:each="ausr:${allUser} " th:text="${ausr.postName}" th:value="${ausr.postName} selected disabled hidden"></option>-->
+                          <option th:each="post:${allPost} " th:text="${post.name}" th:selected="${post.name} "></option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-md-9 col-sm-9  offset-md-3">
+                        <button type="button" class="btn btn-primary">取消</button>
+                        <button type="reset" class="btn btn-primary">复位</button>
+                        <button type="submit" class="btn btn-success">提交</button>
+                      </div>
+                    </div>
+
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+      <!-- 主页面结束 -->
+
+
+
+      </div>
+
+        <!-- footer content 页脚：可以指代开发公司？-->
+<!--        <footer>-->
+<!--          <div class="pull-middle">-->
+<!--            Gentelella - Bootstrap Admin Template by <a th:href="@{/https://colorlib.com">Colorlib</a>-->
+<!--          </div>-->
+<!--          <div class="clearfix"></div>-->
+<!--        </footer>-->
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+    <!-- Bootstrap -->
+    <script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+    <!-- FastClick -->
+    <script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+    <!-- NProgress -->
+    <script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+    <!-- Chart.js -->
+    <script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>
+    <!-- gauge.js -->
+    <script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>
+    <!-- bootstrap-progressbar -->
+    <script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+    <!-- iCheck -->
+    <script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+    <!-- Skycons -->
+    <script th:src="@{/vendors/skycons/skycons.js}"></script>
+    <!-- Flot -->
+    <script th:src="@{/vendors/Flot/jquery.flot.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>
+    <!-- Flot plugins -->
+    <script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>
+    <script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>
+    <script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>
+    <!-- DateJS -->
+    <script th:src="@{/vendors/DateJS/build/date.js}"></script>
+    <!-- JQVMap -->
+    <script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>
+    <script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>
+    <script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+    <script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script th:src="@{/build/js/custom.min.js}"></script>
+      <script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.5.0/flv.min.js"></script>
+
+  <script th:inline="javascript">
+      /*<![CDATA[*/
+        var msg = /*[[${msg}]]*/null;
+        if(msg!=null){
+            alert(msg);
+        }
+      $(document).ready(function() {
+        $.ajax({
+          url:"/queryUserByUserName",
+          data:"originUserName="+$("#userNameSelect").val(),
+          type:"POST",
+          success:function (result){
+            setUserEntity(result);
+          },
+          error:function (result){
+            alert("查询用户失败！");
+          }
+        })
+          $("#userNameSelect").change(function (){
+            $.ajax({
+              url:"/queryUserByUserName",
+              data:"originUserName="+$("#userNameSelect").val(),
+              type:"POST",
+              success:function (result){
+                setUserEntity(result);
+              },
+              error:function (result){
+                alert("查询用户失败！");
+              }
+            })
+          })
+      });
+      function setUserEntity(userEntity){
+        $("#newEmail").val(userEntity.email);
+        $("#newNumber").val(userEntity.number);
+        $("#newPhone").val(userEntity.phone);
+        $("#newPostName").val(userEntity.postName);
+      }
+      /*]]>*/
+  </script>
+  <script type="text/javascript" th:inline="javascript">
+      function deleteUser() {
+          const r = confirm("确定删除此用户？");
+          if (r) {
+              // alert("用户删除成功");
+              return true;
+          }
+          return false;
+      }
+  </script>
+
+<!--    <script th:inline="javascript">-->
+<!--      /*<![CDATA[*/-->
+<!--      var msg = /*[[${msg}]]*/null;-->
+<!--      if(msg!=null){-->
+<!--        alert(msg);-->
+<!--      }-->
+<!--      /*]]>*/-->
+<!--    </script>-->
+
+  </body>
+</html>

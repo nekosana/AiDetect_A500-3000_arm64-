@@ -1,0 +1,16 @@
+2024-08-31 15:00:22,543 INFO [main] c.s.a.b.c.InitFFmpeg [InitFFmpeg.java:59] 加载海康SDK...
+2024-08-31 15:00:22,597 INFO [main] c.s.a.b.c.InitFFmpeg [InitFFmpeg.java:61] 加载完成
+2024-08-31 15:00:25,068 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.b.c.BaseController [BaseController.java:82] 用户：admin登陆系统
+2024-08-31 15:00:25,073 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.b.i.InformationController [InformationController.java:48] 进入首页成功！
+2024-08-31 15:02:14,358 INFO [main] c.s.a.b.c.InitFFmpeg [InitFFmpeg.java:59] 加载海康SDK...
+2024-08-31 15:02:14,409 INFO [main] c.s.a.b.c.InitFFmpeg [InitFFmpeg.java:61] 加载完成
+2024-08-31 15:02:18,787 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.b.c.BaseController [BaseController.java:82] 用户：admin登陆系统
+2024-08-31 15:02:18,801 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.b.i.InformationController [InformationController.java:48] 进入首页成功！
+2024-08-31 15:02:27,718 INFO [http-nio-127.0.0.1-8089-exec-3] c.s.a.b.i.InformationController [InformationController.java:48] 进入首页成功！
+2024-08-31 15:03:25,739 INFO [main] c.s.a.b.c.InitFFmpeg [InitFFmpeg.java:59] 加载海康SDK...
+2024-08-31 15:03:25,791 INFO [main] c.s.a.b.c.InitFFmpeg [InitFFmpeg.java:61] 加载完成
+2024-08-31 15:03:27,490 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.b.c.BaseController [BaseController.java:82] 用户：admin登陆系统
+2024-08-31 15:03:27,494 INFO [http-nio-127.0.0.1-8089-exec-1] c.s.a.b.i.InformationController [InformationController.java:48] 进入首页成功！
+2024-08-31 15:03:33,292 INFO [http-nio-127.0.0.1-8089-exec-9] c.s.a.u.c.AlllUserController [AlllUserController.java:52] 进入全部用户页面成功
+2024-08-31 15:03:43,887 INFO [http-nio-127.0.0.1-8089-exec-7] c.s.a.u.c.AlllUserController [AlllUserController.java:52] 进入全部用户页面成功
+2024-08-31 15:03:54,024 INFO [http-nio-127.0.0.1-8089-exec-5] c.s.a.u.c.AlllUserController [AlllUserController.java:52] 进入全部用户页面成功

@@ -1,0 +1,31 @@
+2024-08-27 00:00:47,650 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 00:09:26,465 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 00:17:37,545 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 00:46:16,667 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 00:47:16,340 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-27 00:48:43,549 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 00:51:12,417 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 00:59:40,814 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:33:25,888 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:34:56,502 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:38:13,687 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:39:56,932 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:42:15,731 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:43:53,809 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:46:01,001 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:49:59,701 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:52:07,220 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:55:11,301 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 01:57:18,564 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 16:54:28,980 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 16:55:34,412 INFO [http-nio-8089-exec-5] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-27 17:15:37,994 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 17:20:15,763 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 17:20:31,908 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-27 17:20:34,420 INFO [http-nio-8089-exec-3] c.s.a.d.v.c.VideoController [VideoController.java:199] 进入人员识别结果页面成功！
+2024-08-27 17:22:24,877 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 17:22:36,709 INFO [http-nio-8089-exec-6] c.s.a.d.v.c.VideoController [VideoController.java:222] 进入车辆识别结果页面成功！
+2024-08-27 17:23:54,346 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 17:28:14,208 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 17:30:46,127 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999
+2024-08-27 17:36:15,967 INFO [main] c.s.a.d.m.HJ212Server [HJ212Server.java:73] HJ212 端口号  =  9999

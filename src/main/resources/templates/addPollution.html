@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico" />
+
+    <title>智能水质监测系统 </title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">
+    <!-- JQVMap -->
+    <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+    <!-- bootstrap-wysiwyg -->
+    <link th:href="@{/vendors/google-code-prettify/bin/prettify.min.css}" rel="stylesheet">
+    <!-- Select2 -->
+    <link th:href="@{/vendors/select2/dist/css/select2.min.css}" rel="stylesheet">
+    <!-- Switchery -->
+    <link th:href="@{/vendors/switchery/dist/switchery.min.css}" rel="stylesheet">
+    <!-- starrr -->
+    <link th:href="@{/vendors/starrr/dist/starrr.css}" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div th:replace="~{blank::menu}"></div>
+
+      <!-- 右上角图标 -->
+      <div th:replace="~{blank::top_nav}"></div>
+      <!-- /top navigation -->
+
+      <!-- 主页面 -->
+      <div class="right_col" role="main">
+        <div class="" th:with="baseURL='/pollution/submit'">
+          <div class="page-title">
+            <div class="title_left">
+              <h3><small>设备管理</small></h3>
+
+            </div>
+
+            <div class="title_right">
+              <div class="col-md-5 col-sm-5   form-group pull-right top_search">
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="">
+
+            <div class="col-md-12">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2><i class="fa fa-plus-square-o"></i> 监测点与设备关联</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+
+                  <ul class="nav nav-tabs bar_tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="setting-tab" data-toggle="tab" href="#setting" role="tab" aria-controls="setting" aria-selected="true">添加设备</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="device-tab" data-toggle="tab" href="#device" role="tab" aria-controls="device" aria-selected="true">删除设备</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="class-tab" data-toggle="tab" href="#class" role="tab" aria-controls="class" aria-selected="false">添加监测点</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="monitor-tab" data-toggle="tab" href="#monitor" role="tab" aria-controls="monitor" aria-selected="false">删除监测点</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="serial-device-tab" data-toggle="tab" href="#serial-device" role="tab" aria-controls="serial-device" aria-selected="false">添加串口设备</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="delete-serial-device-tab" data-toggle="tab" href="#delete-serial-device" role="tab" aria-controls="delete-serial-device" aria-selected="false">删除串口设备</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="new-device-tab" data-toggle="tab" href="#new-device" role="tab" aria-controls="new-device" aria-selected="false">新设备配置</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="delete-device-tab" data-toggle="tab" href="#delete-device" role="tab" aria-controls="delete-device" aria-selected="false">删除设备配置</a>
+                    </li>
+<!--                    <li class="nav-item">-->
+<!--                      <a class="nav-link" id="pollution-tab" data-toggle="tab" href="#pollution" role="tab" aria-controls="pollution" aria-selected="false">新增污染源</a>-->
+<!--                    </li>-->
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="setting" role="tabpanel" aria-labelledby="setting-tab">
+                      <form th:action="@{${baseURL}+'/add'}" method="post" id="settingForm" data-parsley-validate class="form-horizontal form-label-left">
+
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="monitorClass">监测类型<span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 ">
+                            <select class="form-control " id="monitorClass" name="monitorClass">
+                              <option th:each="mc:${allMonitorClass}" th:value="${mc}" th:text="${mc}">监测类型</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="monitorName">监测点<span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 ">
+                            <select class="form-control " id="monitorName" name="monitorName">
+                              <option th:each="mc:${allMonitor}" th:value="${mc}" th:text="${mc}">监测点</option>
+                            </select>
+                          </div>
+                        </div>
+<!--                        <div class="item form-group">-->
+<!--                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="monitorValue">污染源<span class="required">*</span>-->
+<!--                          </label>-->
+<!--                          <div class="col-md-6 col-sm-6 ">-->
+<!--                            <select class="form-control " id="monitorValue" name="monitorValue">-->
+<!--                              <option th:each="pn:${allPollutionName}" th:value="${pn}" th:text="${pn}">SO2</option>-->
+<!--                            </select>-->
+<!--                          </div>-->
+<!--                        </div>-->
+                        <div class="item form-group">
+                          <label for="deviceId" class="col-form-label col-md-3 col-sm-3 label-align">设备ID<span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 ">
+                            <input id="deviceId" class="form-control" type="text" name="deviceId" required="required">
+                          </div>
+                        </div>
+                        <div class="ln_solid"></div>
+                        <div class="item form-group">
+                          <div class="col-md-6 col-sm-6 offset-md-4">
+                            <button class="btn btn-primary" type="reset" style="min-width: 75px;">复位</button>
+                            <button type="submit" class="btn btn-success" style="min-width: 75px;margin-left: 25px;">提交</button>
+                          </div>
+                        </div>
+
+                      </form>
+                    </div>
+                    <div class="tab-pane fade" id="class" role="tabpanel" aria-labelledby="class-tab">
+                      <form th:action="@{${baseURL}+'/add'}" method="post" id="classForm" data-parsley-validate class="form-horizontal form-label-left">
+
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align">现有监测点
+                          </label>
+                          <div class="col-md-6 col-sm-6 " style="padding: 10px;">
+                            <span th:each="mc:${allMonitor}" th:text="${mc}" class="badge badge-danger">现有监测点</span>
+                          </div>
+                        </div>
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="newClass">新增监测点
+                          </label>
+                          <input type="hidden" name="existMonitorName" th:each="mc:${allMonitor}" th:value="${mc}">
+                          <div class="col-md-6 col-sm-6 ">
+                            <input type="text" id="newClass" class="form-control " name="newMonitorName" placeholder="不能和现有监测点重复">
+                          </div>
+                        </div>
+                        <div class="ln_solid"></div>
+                        <div class="item form-group">
+                          <div class="col-md-6 col-sm-6 offset-md-4">
+                            <button class="btn btn-primary" type="reset" style="min-width: 75px;">复位</button>
+                            <button type="submit" class="btn btn-success" style="min-width: 75px;margin-left: 25px;">提交</button>
+                          </div>
+                        </div>
+
+                      </form>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="device" role="tabpanel" aria-labelledby="device-tab">
+                      <form th:action="@{${baseURL}+'/add'}" method="post" id="deviceForm" data-parsley-validate class="form-horizontal form-label-left">
+
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="DeviceId">设备ID<span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 ">
+                            <select class="form-control " id="deleteDeviceId" name="deleteDeviceId">
+                              <option th:each="mc:${allDeviceId}" th:value="${mc}" th:text="${mc}">设备ID</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="ln_solid"></div>
+                        <div class="item form-group">
+                          <div class="col-md-6 col-sm-6 offset-md-4">
+                            <button class="btn btn-primary" type="reset" style="min-width: 75px;">复位</button>
+                            <button type="submit" class="btn btn-success" style="min-width: 75px;margin-left: 25px;">提交</button>
+                          </div>
+                        </div>
+
+                      </form>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="monitor" role="tabpanel" aria-labelledby="monitor-tab">
+                      <form th:action="@{${baseURL}+'/add'}" method="post" id="monitorForm" data-parsley-validate class="form-horizontal form-label-left">
+
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="monitorName">监测点<span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 ">
+                            <select class="form-control " id="deleteMonitorName" name="deleteMonitorName">
+                              <option th:each="mc:${allMonitor}" th:value="${mc}" th:text="${mc}">监测点</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="ln_solid"></div>
+                        <div class="item form-group">
+                          <div class="col-md-6 col-sm-6 offset-md-4">
+                            <button class="btn btn-primary" type="reset" style="min-width: 75px;">复位</button>
+                            <button type="submit" class="btn btn-success" style="min-width: 75px;margin-left: 25px;">提交</button>
+                          </div>
+                        </div>
+
+
+                      </form>
+                    </div>
+
+                    <!-- 添加串口设备 -->
+                    <div class="tab-pane fade" id="serial-device" role="tabpanel" aria-labelledby="serial-device-tab">
+                      <form th:action="@{/api/serial-device/addSerialDevice}" method="post" id="serialDeviceForm" class="form-horizontal form-label-left">
+
+                        <!-- 设备名 -->
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="deviceName">设备名<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                            <select class="form-control " id="deviceName" name="deviceName" onchange="loadBrands()" >
+                              <option value="" selected>请选择设备名</option>
+                              <option th:each="mc:${allSerialDeviceName}" th:value="${mc}" th:text="${mc}">设备ID</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- 设备品牌 -->
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="brand">设备品牌<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                            <select class="form-control" id="brand" name="brand" onchange="loadModels()" disabled>
+                              <option value="">请选择设备品牌</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- 设备型号 -->
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="model">设备型号<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                            <select class="form-control" id="model" name="model"  onchange="loadSoftwareversions()" disabled>
+                              <option value="">请选择设备型号</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- 软件版本号 -->
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="softwareVersion">软件版本号<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                            <select class="form-control" id="softwareVersion" name="softwareVersion" disabled>
+                              <option th:each="sv:${softwareVersions}" th:value="${sv}" th:text="${sv}">选择软件版本号</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- 串口号 -->
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="port">串口号<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                            <select class="form-control" id="port" name="port">
+                              <option th:each="sv:${allSerial}" th:value="${sv}" th:text="${sv}">选择串口号</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <!-- 波特率 -->
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="baudRate">波特率<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                            <select class="form-control" id="baudRate" name="baudRate">
+                              <option value="">请选择波特率</option>
+                              <option value="1200">1200</option>
+                              <option value="2400">2400</option>
+                              <option value="4800">4800</option>
+                              <option value="9600">9600</option>
+                              <option value="19200">19200</option>
+                              <option value="38400">38400</option>
+                              <option value="57600">57600</option>
+                              <option value="115200">115200</option>
+                              <option value="230400">230400</option>
+                              <option value="460800">460800</option>
+                            </select>
+                          </div>
+                        </div>
+
+
+                        <!-- 通讯ID -->
+                        <div class="item form-group">
+                          <label for="communicationId" class="col-form-label col-md-3 col-sm-3 label-align">通讯ID<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                            <input id="communicationId" class="form-control" type="text" name="communicationId" >
+                          </div>
+                        </div>
+
+                        <!-- 开始位 -->
+                        <div class="item form-group">
+                          <label for="startBit" class="col-form-label col-md-3 col-sm-3 label-align">开始位<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                            <input id="startBit" class="form-control" type="number" name="startBit" >
+                          </div>
+                        </div>
+
+                        <!-- 结束位 -->
+                        <div class="item form-group">
+                          <label for="endBit" class="col-form-label col-md-3 col-sm-3 label-align">结束位<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                            <input id="endBit" class="form-control" type="number" name="endBit" >
+                          </div>
+                        </div>
+
+                        <!-- 备注 -->
+                        <div class="item form-group">
+                          <label for="info" class="col-form-label col-md-3 col-sm-3 label-align">备注</label>
+                          <div class="col-md-6 col-sm-6">
+                            <input id="info" class="form-control" type="text" name="info" >
+                          </div>
+                        </div>
+
+                        <!-- 按钮 -->
+                        <div class="ln_solid"></div>
+                        <div class="item form-group">
+                          <div class="col-md-6 col-sm-6 offset-md-4">
+                            <button class="btn btn-primary" type="reset" id="resetButton" style="min-width: 75px;" >复位</button>
+                            <button type="submit" class="btn btn-success" id="submitButton" style="min-width: 75px; margin-left: 25px;" >提交</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- 删除串口设备 -->
+                    <div class="tab-pane fade" id="delete-serial-device" role="tabpanel" aria-labelledby="delete-serial-device-tab">
+                      <form th:action="@{/api/serial-device/deleteSerialDevice}" method="post" id="deleteSerialDeviceForm" class="form-horizontal form-label-left">
+
+                        <!-- 设备品牌型号 -->
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="brandModel">品牌型号<span class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6">
+                            <select class="form-control" id="brandModel" name="brandModel">
+                              <option value="">请选择设备品牌型号</option>
+                              <option th:each="bm:${allSerialDeviceBrandModel}" th:value="${bm}" th:text="${bm}"></option>
+                            </select>
+                          </div>
+                        </div>
+                        <!-- 按钮 -->
+                        <div class="ln_solid"></div>
+                        <div class="item form-group">
+                          <div class="col-md-6 col-sm-6 offset-md-4">
+                            <button class="btn btn-primary" type="reset" id="resetDeleteButton" style="min-width: 75px;">复位</button>
+                            <button type="submit" class="btn btn-danger" id="submitDeleteButton" style="min-width: 75px; margin-left: 25px;">删除</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                      <!-- 新设备配置表单 -->
+                    <div class="tab-pane fade" id="new-device" role="tabpanel" aria-labelledby="new-device-tab">
+                        <form th:action="@{/api/serial-device/configSerialDevice}" method="post" id="newDeviceForm" data-parsley-validate class="form-horizontal form-label-left">
+
+                          <!-- 设备名称 -->
+                          <div class="item form-group">
+                            <label class="col-form-label col-md-3 col-sm-3 label-align" for="newDeviceName">设备名称<span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6">
+                              <input id="newDeviceName" class="form-control" type="text" name="newDeviceName" required="required" placeholder="请输入设备名称">
+                            </div>
+                          </div>
+
+                          <!-- 设备品牌 -->
+                          <div class="item form-group">
+                            <label class="col-form-label col-md-3 col-sm-3 label-align" for="newDeviceBrand">设备品牌<span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6">
+                              <input id="newDeviceBrand" class="form-control" type="text" name="newDeviceBrand" required="required" placeholder="请输入设备品牌">
+                            </div>
+                          </div>
+
+                          <!-- 设备型号 -->
+                          <div class="item form-group">
+                            <label class="col-form-label col-md-3 col-sm-3 label-align" for="newDeviceModel">设备型号<span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6">
+                              <input id="newDeviceModel" class="form-control" type="text" name="newDeviceModel" required="required" placeholder="请输入设备型号">
+                            </div>
+                          </div>
+
+                          <!-- 设备版本 -->
+                          <div class="item form-group">
+                            <label class="col-form-label col-md-3 col-sm-3 label-align" for="newDeviceVersion">设备版本<span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6">
+                              <input id="newDeviceVersion" class="form-control" type="text" name="newDeviceVersion" required="required" placeholder="请输入设备版本">
+                            </div>
+                          </div>
+
+                          <!-- 设备选型 -->
+                          <div class="item form-group">
+                            <label class="col-form-label col-md-3 col-sm-3 label-align" for="deviceSelection">设备选型<span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6">
+                              <select class="form-control " id="deviceSelection" name="deviceSelection">
+                                <option th:each="mc:${allConfigModel}" th:value="${mc}" th:text="${mc}">型号</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div class="ln_solid"></div>
+
+                          <!-- 提交和复位按钮 -->
+                          <div class="item form-group">
+                            <div class="col-md-6 col-sm-6 offset-md-4">
+                              <button class="btn btn-primary" type="reset" style="min-width: 75px;">复位</button>
+                              <button type="submit" class="btn btn-success" style="min-width: 75px; margin-left: 25px;">配置</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    <!-- 删除设备配置 -->
+                    <div class="tab-pane fade" id="delete-device" role="tabpanel" aria-labelledby="delete-device-tab">
+                      <form th:action="@{/api/serial-device/deleteConfigDevice}" method="post" id="deleteDeviceForm" data-parsley-validate class="form-horizontal form-label-left">
+                        <div class="item form-group">
+                          <label class="col-form-label col-md-3 col-sm-3 label-align" for="deleteDeviceId">选择设备ID<span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6">
+                            <select class="form-control" id="deleteConfigDevice" name="deleteConfigDevice">
+                              <option th:each="mc:${allConfigDevice}" th:value="${mc}" th:text="${mc}">设备ID</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="ln_solid"></div>
+                        <div class="item form-group">
+                          <div class="col-md-6 col-sm-6 offset-md-4">
+                            <button class="btn btn-primary" type="reset" style="min-width: 75px;">复位</button>
+                            <button type="submit" class="btn btn-danger" style="min-width: 75px;margin-left: 25px;">删除</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- 主页面结束 -->
+
+
+
+
+        <!-- footer content 页脚：可以指代开发公司？-->
+<!--        <footer>-->
+<!--          <div class="pull-middle">-->
+<!--            Gentelella - Bootstrap Admin Template by <a th:href="@{/https://colorlib.com">Colorlib</a>-->
+<!--          </div>-->
+<!--          <div class="clearfix"></div>-->
+<!--        </footer>-->
+        <!-- /footer content -->
+      </div>
+    </div>
+
+  <!-- jQuery -->
+  <script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+  <!-- Bootstrap -->
+  <script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+  <!-- FastClick -->
+  <script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+  <!-- NProgress -->
+  <script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+  <!-- Chart.js -->
+  <script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>
+  <!-- gauge.js -->
+  <script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>
+  <!-- bootstrap-progressbar -->
+  <script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+  <!-- iCheck -->
+  <script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+  <!-- Skycons -->
+  <script th:src="@{/vendors/skycons/skycons.js}"></script>
+  <!-- Flot -->
+  <script th:src="@{/vendors/Flot/jquery.flot.js}"></script>
+  <script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>
+  <script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>
+  <script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>
+  <script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>
+  <!-- Flot plugins -->
+  <script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>
+  <script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>
+  <script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>
+  <!-- DateJS -->
+  <script th:src="@{/vendors/DateJS/build/date.js}"></script>
+  <!-- JQVMap -->
+  <script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>
+  <script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>
+  <script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>
+  <!-- bootstrap-daterangepicker -->
+  <script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+  <script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+
+  <!-- Datatables -->
+  <script th:src="@{/vendors/datatables.net/js/jquery.dataTables.min.js}"></script>
+  <script th:src="@{/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js}"></script>
+  <script th:src="@{/vendors/datatables.net-buttons/js/dataTables.buttons.min.js}"></script>
+  <script th:src="@{/vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js}"></script>
+  <script th:src="@{/vendors/datatables.net-buttons/js/buttons.flash.min.js}"></script>
+  <script th:src="@{/vendors/datatables.net-buttons/js/buttons.html5.min.js}"></script>
+  <script th:src="@{/vendors/datatables.net-buttons/js/buttons.print.min.js}"></script>
+  <script th:src="@{/vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js}"></script>
+  <script th:src="@{/vendors/datatables.net-keytable/js/dataTables.keyTable.min.js}"></script>
+  <script th:src="@{/vendors/datatables.net-responsive/js/dataTables.responsive.min.js}"></script>
+  <script th:src="@{/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js}"></script>
+  <script th:src="@{/vendors/datatables.net-scroller/js/dataTables.scroller.min.js}"></script>
+  <script th:src="@{/vendors/jszip/dist/jszip.min.js}"></script>
+  <script th:src="@{/vendors/pdfmake/build/pdfmake.min.js}"></script>
+  <script th:src="@{/vendors/pdfmake/build/vfs_fonts.js}"></script>
+
+  <!-- Custom Theme Scripts -->
+  <script th:src="@{/build/js/custom.min.js}"></script>
+	
+  <script th:inline="javascript">
+      /*<![CDATA[*/
+        var msg = /*[[${msg}]]*/null;
+        if(msg!=null){
+            alert(msg);
+        }
+      /*]]>*/
+  </script>
+
+  <script th:inline="javascript" th:with="zh=@{/json/zh.json}">
+
+    // 加载品牌列表
+    function loadBrands() {
+      console.log("进入选择设备品牌");
+      const deviceName = document.getElementById("deviceName").value;
+      const brandSelect = document.getElementById("brand");
+      const modelSelect = document.getElementById("model");
+      const softwareVersionSelect = document.getElementById("softwareVersion");
+      // 清空品牌和型号选项
+      brandSelect.innerHTML = '<option value="">请选择设备品牌</option>';
+      modelSelect.innerHTML = '<option value="">请选择设备型号</option>';
+      softwareVersionSelect.innerHTML = '<option value="">请选择设备软件版本</option>';
+      modelSelect.disabled = true; // 禁用型号选择框
+      softwareVersionSelect.disabled = true;
+      if (deviceName) {
+        fetch(`/api/serial-device/brands?deviceName=${deviceName}`)
+                .then(response => response.json())
+                .then(data => {
+                  data.forEach(brand => {
+                    const option = document.createElement("option");
+                    option.value = brand;
+                    option.textContent = brand;
+                    brandSelect.appendChild(option);
+                  });
+                  brandSelect.disabled = false; // 启用品牌选择框
+                });
+      } else {
+        brandSelect.disabled = true; // 禁用品牌选择框
+        modelSelect.disabled = true; // 禁用型号选择框
+        softwareVersionSelect.disabled = true;
+      }
+    }
+
+
+    // 加载型号列表
+    function loadModels() {
+      const deviceName = document.getElementById("deviceName").value;
+      const brand = document.getElementById("brand").value;
+      const modelSelect = document.getElementById("model");
+      const softwareVersionSelect = document.getElementById("softwareVersion");
+      // 清空型号选项
+      modelSelect.innerHTML = '<option value="">请选择设备型号</option>';
+      softwareVersionSelect.innerHTML = '<option value="">请选择软件版本</option>';
+      if (deviceName && brand) {
+        fetch(`/api/serial-device/models?deviceName=${deviceName}&brand=${brand}`)
+                .then(response => response.json())
+                .then(data => {
+                  data.forEach(model => {
+                    const option = document.createElement("option");
+                    option.value = model;
+                    option.textContent = model;
+                    modelSelect.appendChild(option);
+                  });
+                  modelSelect.disabled = false; // 启用型号选择框
+                });
+      } else {
+        modelSelect.disabled = true; // 禁用型号选择框
+        softwareVersionSelect.disabled = true;
+      }
+    }
+
+    // 加载软件版本
+    function loadSoftwareversions() {
+      const deviceName = document.getElementById("deviceName").value;
+      const brand = document.getElementById("brand").value;
+      const model = document.getElementById("model").value;
+      const softwareversionSelect = document.getElementById("softwareVersion");
+      // 清空型号选项
+      softwareversionSelect.innerHTML = '<option value="">请选择软件版本</option>';
+
+      if (brand && model) {
+        fetch(`/api/serial-device/softwareversions?brand=${brand}&model=${model}`)
+                .then(response => response.json())
+                .then(data => {
+                  data.forEach(model => {
+                    const option = document.createElement("option");
+                    option.value = model;
+                    option.textContent = model;
+                    softwareversionSelect.appendChild(option);
+                  });
+                  softwareversionSelect.disabled = false; // 启用型号选择框
+                });
+      } else {
+        softwareversionSelect.disabled = true; // 禁用型号选择框
+      }
+    }
+
+    // 启用提交和其他输入框
+    function enableFields() {
+      const model = document.getElementById("model").value;
+      const fields = [
+        "softwareVersion",
+        "port",
+        "baudRate",
+        "communicationId",
+        "startBit",
+        "endBit",
+        "info",
+        "resetButton",
+        "submitButton"
+      ];
+
+      fields.forEach(fieldId => {
+        document.getElementById(fieldId).disabled = !model;
+      });
+    }
+
+  </script>
+</body>
+</html>

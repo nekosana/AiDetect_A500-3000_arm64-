@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+    <meta name="author" content="GeeksLabs">
+    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>智能水质监测系统-登录</title>
+
+    <!-- Bootstrap CSS -->    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script th:inline="javascript">
+    	var str = /*[[${already}]]*/null;
+    	if(str!=null){
+    		alert(str);
+    	}
+    </script>
+    <script src="js/myjs.js"></script>
+</head>
+
+  <body class="login-img3-body">
+
+    <div class="container">
+      <form class="login-form" action="login" method="post">        
+        <div class="login-wrap">
+            <p class="login-img"><i class="icon_lock_alt"></i></p>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="icon_profile"></i></span>
+              <input type="text" class="form-control" th:value="${userName}" placeholder="用户名" autofocus name="userName">
+            </div>
+
+            <div class="input-group" style="padding-bottom: 0px;">
+                <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+                <input type="password" class="form-control" placeholder="密码" name="password">
+            </div>
+            <p id="hint" style="font-size:16px; color: red;text-align: left;"></p>
+            <!--<label class="checkbox">
+                <span class="pull-right"> <a href="updatePwdWeb1">忘记密码?</a></span>
+            </label>-->
+            <button class="btn btn-default btn-sm" type="button" onclick="document.getElementById('form3').submit()">修改密码</button>
+
+            <button class="btn btn-primary btn-lg btn-block" type="submit">登录</button>
+            <button class="btn btn-primary btn-lg btn-block" type="button" onclick="document.getElementById('form2').submit()">注册</button>
+        </div>
+      </form>
+      
+      <form id="form2" style="width:0px; height:0px" action="regist" method="post"> 
+        <input type="hidden" id="information" th:value="${information}">
+ 	  </form>
+      <form id = "form3" action="updatePwdWeb1" method="post">
+          <input type="hidden" id="info" th:value="${info}">
+      </form>
+
+
+
+    </div>
+
+
+
+  </body>
+    <script type="text/javascript">
+    window.onload=function(){
+      var str=document.getElementById("information").value;
+      if(str=="loginerror"){
+       document.getElementById("hint").innerHTML="用户名或密码错误！";
+      }
+      else if(str=="signfirst"){
+        document.getElementById("hint").innerHTML="用户名不存在，请先注册！";
+      }
+    } 
+  </script>
+  <script th:inline="javascript">
+      /*<![CDATA[*/
+        var msg = /*[[${msg}]]*/null;
+        if(msg!=null){
+            alert(msg);
+        }
+      /*]]>*/
+  </script>
+  
+</html>

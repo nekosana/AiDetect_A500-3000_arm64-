@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <!--    <meta http-equiv="refresh" content="5" >-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico"/>
+
+    <title>智能水质监测系统 </title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css}">
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+
+    <!-- bootstrap-progressbar -->
+    <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">
+    <!-- JQVMap -->
+    <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+
+    <!-- Datatables -->
+    <link th:href="@{/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+<div class="container body">
+    <div class="main_container">
+
+        <!-- 侧边栏 -->
+        <div th:replace="~{blank::menu}"></div>
+
+        <!-- 右上角图标 -->
+        <div th:replace="~{blank::top_nav}"></div>
+
+        <!-- 主页面 -->
+        <div class="right_col" role="main">
+            <div class="" th:with="baseURL='/pollution'">
+                <div class="page-title">
+                    <div class="title_left">
+                        <h3><small>HJ212参数监测</small></h3>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+                <!-- 分页表格 -->
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 ">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <!--                                <a th:href="@{${baseURL}+'/add'}" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i> 新增用电设备</a>-->
+                                <div class="col-sm-4">
+                                    <select class="form-control" name="monitorName" id="monitorNameSelect">
+                                        <option th:each="monitor:${allMonitors}" th:value="${monitor}"
+                                                th:text="${monitor}"></option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-4">
+                                    <select class="form-control" name="dateDir" id="dateDirSelect"></select>
+                                </div>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card-box table-responsive">
+                                            <table id="table_id_example" class="table table-striped table-bordered"
+                                                   style="width:100%">
+                                                <thead>
+                                                <tr id="table_head">
+                                                </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-sm-6">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>预测趋势图<small>根据前五天的数据预测后两天的数据趋势</small></h2>
+
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="col-sm-4">
+                                <select class="form-control" name="Key" id="keysSelect"> </select>&nbsp;
+                            </div>
+                            <div class="x_content">
+                                <canvas id="lineChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+<!--                    <div class="col-md-6 col-sm-6  ">-->
+<!--                        <div class="x_panel">-->
+<!--                            <div class="x_title">-->
+<!--                                <h2>预警设置</h2>-->
+
+<!--                                <ul class="nav navbar-right panel_toolbox">-->
+<!--                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="close-link"><i class="fa fa-close"></i></a>-->
+<!--                                    </li>-->
+<!--                                </ul>-->
+<!--                                <div class="clearfix"></div>-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-4">-->
+<!--                                <select class="form-control" name="Key" id="keysSelect2"></select>&nbsp;-->
+<!--                            </div>-->
+
+<!--                            <div class="x_content">-->
+
+<!--                                <table class="table table-bordered" >-->
+<!--                                    <tbody>-->
+<!--                                    <tr>-->
+<!--                                        <th style="font-size: 21px;" scope="row">监测数据</th>-->
+<!--                                        <td style="font-size: 21px;" th:text="${alarmSettingsEntity.monitorValue}"></td>-->
+<!--&lt;!&ndash;                                        <td style="font-size: 21px;" id="qwqw"></td>&ndash;&gt;-->
+<!--                                    </tr>-->
+<!--                                    <tr>-->
+<!--                                        <th style="font-size: 21px;" scope="row">监测类型</th>-->
+<!--                                        <td style="font-size: 21px;" th:text="${alarmSettingsEntity.monitorClass}"></td>-->
+<!--                                    </tr>-->
+<!--                                    <tr>-->
+<!--                                        <th style="font-size: 21px;" scope="row">上限阈值</th>-->
+<!--                                        <td style="font-size: 21px;" th:text="${alarmSettingsEntity.upperLimit}"></td>-->
+<!--                                    </tr>-->
+<!--                                    <tr>-->
+<!--                                        <th style="font-size: 21px;" scope="row">下限阈值</th>-->
+<!--                                        <td style="font-size: 21px;" th:text="${alarmSettingsEntity.lowerLimit}"></td>-->
+<!--                                    </tr>-->
+<!--                                    <tr>-->
+<!--                                        <th style="font-size: 21px;" scope="row">单位</th>-->
+<!--                                        <td style="font-size: 21px;" th:text="${alarmSettingsEntity.unit}"></td>-->
+<!--                                    </tr>-->
+<!--                                    <tr>-->
+<!--                                        <th style="font-size: 21px;" scope="row">报警信息</th>-->
+<!--                                        <td style="font-size: 21px;" th:text="${alarmSettingsEntity.message}"></td>-->
+<!--                                    </tr>-->
+<!--&lt;!&ndash;                                    <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <th scope="row">AAAAA</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <td >AAAA</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </tr>&ndash;&gt;-->
+
+<!--                                    </tbody>-->
+<!--                                </table>-->
+
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+                </div>
+                <br/>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- jQuery -->
+<script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+<!-- Bootstrap -->
+<script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+<!-- FastClick -->
+<script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+<!-- NProgress -->
+<script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+<!-- Chart.js -->
+<script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>
+<!-- gauge.js -->
+<script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>
+<!-- bootstrap-progressbar -->
+<script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+<!-- iCheck -->
+<script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+<!-- Skycons -->
+<script th:src="@{/vendors/skycons/skycons.js}"></script>
+<!-- Flot -->
+<script th:src="@{/vendors/Flot/jquery.flot.js}"></script>
+<script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>
+<script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>
+<script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>
+<script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>
+<!-- Flot plugins -->
+<script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>
+<script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>
+<script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>
+<!-- DateJS -->
+<script th:src="@{/vendors/DateJS/build/date.js}"></script>
+<!-- JQVMap -->
+<script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>
+<script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>
+<script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>
+<!-- bootstrap-daterangepicker -->
+<script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+<script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+
+<!-- Datatables -->
+<script th:src="@{/vendors/datatables.net/js/jquery.dataTables.min.js}"></script>
+<script th:src="@{/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js}"></script>
+<script th:src="@{/vendors/datatables.net-buttons/js/dataTables.buttons.min.js}"></script>
+<script th:src="@{/vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js}"></script>
+<script th:src="@{/vendors/datatables.net-buttons/js/buttons.flash.min.js}"></script>
+<script th:src="@{/vendors/datatables.net-buttons/js/buttons.html5.min.js}"></script>
+<script th:src="@{/vendors/datatables.net-buttons/js/buttons.print.min.js}"></script>
+<script th:src="@{/vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js}"></script>
+<script th:src="@{/vendors/datatables.net-keytable/js/dataTables.keyTable.min.js}"></script>
+<script th:src="@{/vendors/datatables.net-responsive/js/dataTables.responsive.min.js}"></script>
+<script th:src="@{/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js}"></script>
+<script th:src="@{/vendors/datatables.net-scroller/js/dataTables.scroller.min.js}"></script>
+<script th:src="@{/vendors/jszip/dist/jszip.min.js}"></script>
+<script th:src="@{/vendors/pdfmake/build/pdfmake.min.js}"></script>
+<script th:src="@{/vendors/pdfmake/build/vfs_fonts.js}"></script>
+<!-- ECharts -->
+<script th:src="@{/vendors/echarts/dist/echarts.min.js}"></script>
+<script th:src="@{/vendors/echarts/map/js/world.js}"></script>
+<!-- Custom Theme Scripts -->
+<script th:src="@{/build/js/custom.js}"></script>
+
+
+<script type="text/javascript" th:inline="javascript">
+    // window.alert = function() {
+    //     return false;
+    // }
+    $(function () {
+        jQuery.support.cors = true;
+        $("#pageSize").change(function () {
+            $("#pageSizeForm").attr({'action': $("#pageSizeForm").attr('action') + $("#pageSize option:selected").val()})
+            $("#pageSizeForm").submit();
+        });
+        // callMonitorName();调用中拓文件序列的时候用
+        callDateDirs();
+        returnKeyData()
+        $("#monitorNameSelect").change(function () {
+            callDateDirs();
+            callPollutionData(2);
+        });
+        callPollutionData(1);
+        $("#dateDirSelect").change(function () {
+            callPollutionData(2);
+        });
+
+
+        $("#keysSelect").change(function () {
+            returnKeyData();
+        });
+        $("#keysSelect2").change(function () {
+            returnKeyData2();
+        });
+
+    });
+</script>
+<script th:inline="javascript">
+
+    window.alert = function () {
+        return false;
+    }
+    /*<![CDATA[*/
+    // var msg = /*[[${msg}]]*/null;
+    // if(msg!=null){
+    //     window.alert = function() {
+    //         return true;
+    //     }
+    //     alert(msg);
+    // }else {
+    //     window.alert = function() {
+    //         return false;
+    //     }
+    // }
+    /*]]>*/
+</script>
+
+<script th:inline="javascript" th:with="zh=@{/json/zh.json}">
+    let host = document.location.host;
+    function returnKeyData() {
+        $.ajaxSettings.async = false;
+
+        $.post("http://" + host +"/returnTrendChart", "monitorName=" + $("#monitorNameSelect").val() + "&keys=" + $("#keysSelect").val(), function (result) {
+            // console.log("0000000000"+msg);
+            // console.log(result);
+            var obj = JSON.parse(result);
+
+
+
+            if (obj.qqq != null) {
+                confirm(obj.qqq);
+            }
+
+            if ($('#lineChart').length) {
+                var ctx = document.getElementById("lineChart");
+
+                var lineChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        // labels: ["2023-09-01", "2023-09-02", "2023-09-03", "2023-09-04", "2023-09-05", "2023-09-06", "2023-09-07"],
+                        labels: obj.numsTime,
+                        datasets: [
+                            {
+                                label: "数值参数值",
+                                backgroundColor: "rgba(38, 185, 154, 0.31)",
+                                borderColor: "rgba(38,185,154,0.76)",
+                                pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                                pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+                                pointHoverBackgroundColor: "#fff",
+                                pointHoverBorderColor: "rgba(220,220,220,1)",
+                                pointBorderWidth: 1,
+                                data: obj.numsData
+                            },
+                            //     {
+                            //     label: "数值参数值",
+                            //     backgroundColor: "rgba(3, 88, 106, 0.3)",
+                            //     borderColor: "rgba(3, 88, 106, 0.70)",
+                            //     pointBorderColor: "rgba(3, 88, 106, 0.70)",
+                            //     pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+                            //     pointHoverBackgroundColor: "#fff",
+                            //     pointHoverBorderColor: "rgba(151,187,205,1)",
+                            //     pointBorderWidth: 3,
+                            //     data: [22.92, 22.91, 22.95, 22.94, 22.92, 22.93, 22.91]
+                            // }
+                        ]
+                    },
+                });
+            }
+
+        });
+        $.ajaxSettings.async = true;
+    }
+
+
+    function returnKeyData2() {
+        $.ajaxSettings.async = false;
+        // history.go(0)
+        //重定向
+
+        $.post("http://" + host +"/pollutionAlarm", "&key=" + $("#keysSelect2").val(), function (result) {
+            var obj = JSON.parse(result);
+            if (obj.qqq != null) {
+                confirm(obj.qqq);
+            }else {
+                window.location.replace("http://" + host +"/pollutionMonitor?key=" + $("#keysSelect2").val())
+            }
+        });
+
+
+        // $.post("http://localhost:8082/pollutionAlarm", "&key=" + $("#keysSelect2").val(), function (result) {
+        // });
+
+        $.ajaxSettings.async = true;
+
+    }
+
+    function callMonitorName() {
+        /*$.post("/returnPollutionMonitorName","",function (result){
+            $("#monitorNameSelect").empty();
+            for (var i=0;i<result.length;i++){
+                $("#monitorNameSelect").append("<option value='"+ result[i] +"'>"+ result[i] +"</option>");
+            }
+        });*/
+        $.ajaxSettings.async = false;
+        $.post("http://" + host +"/returnPollutionMonitorName", "", function (result) {
+            //218.2.130.246
+            $("#monitorNameSelect").empty();
+            for (var i = 0; i < result.length; i++) {
+                $("#monitorNameSelect").append("<option value='" + result[i] + "'>" + result[i] + "</option>");
+            }
+        });
+        $.ajaxSettings.async = true;
+    }
+
+
+    function callDateDirs() {
+        $.ajaxSettings.async = false;
+        $.post("http://" + host +"/returnPollutionFileList", "monitorName=" + $("#monitorNameSelect").val(), function (result) {
+            //218.2.130.246
+            $("#dateDirSelect").empty();
+            for (var i = 0; i < result.length; i++) {
+                $("#dateDirSelect").append("<option value='" + result[i] + "'>" + result[i] + "</option>");
+            }
+        });
+        $.ajaxSettings.async = true;
+    }
+
+    function callPollutionData(cnt) {
+        console.log("monitorName=" + $("#monitorNameSelect").val());
+        console.log("dir=" + $("#dateDirSelect").val());
+        $.post("http://" + host +"/returnPollutionData", "monitorName=" + $("#monitorNameSelect").val() + "&dir=" + $("#dateDirSelect").val() + "&keys=" + $("#keysSelect").val(), function (result) {
+            //218.2.130.246:8082
+            if (cnt !== 1) {
+                $('#table_id_example').DataTable().clear();
+                $('#table_id_example').DataTable().destroy();
+                $('#table_id_example').empty();
+            }
+            createDatatable(result);
+        });
+    }
+
+    function createDatatable(result) {
+        var obj = JSON.parse(result);
+        var col = [];
+        $("#table_id_example").append("<thead>\n" +
+            "<tr id=\"table_head\">\n" +
+            "</tr>\n" +
+            "</thead>");
+        for (var i = 0; i < obj.keySet.length; i++) {
+            $('#table_head').append("<th>" + obj.keySet[i] + "</th>");
+            col[i] = "{\"data\":\"" + obj.keySet[i] + "\"}"
+            col[i] = JSON.parse(col[i]);
+        }
+
+        $("#keysSelect").empty();
+        for (var i = 0; i < obj.keySet_notime.length; i++) {
+            $("#keysSelect").append("<option value='" + obj.keySet_notime[i] + "'>" + obj.keySet_notime[i] + "</option>");
+        }
+        $("#keysSelect2").empty();
+        for (var i = 0; i < obj.keySet_notime.length; i++) {
+            $("#keysSelect2").append("<option value='" + obj.keySet_notime[i] + "'>" + obj.keySet_notime[i] + "</option>");
+        }
+
+
+        // console.log(col);
+        $('#table_id_example').DataTable({
+            /*"columns":[  //绑定的数据源，后台的json数据里必须有这些属性，保持一致性
+                {"data":"accountNum"},
+                {"data":"userName"},
+                {"data":"unit"},
+                {"data":"authority"},
+                {"data":"time"}
+            ],*/
+            "scrollX": true,
+            columns: col,
+            data: obj.data,
+            language: {
+                url: [[${zh}]],
+            },
+        });
+    }
+
+</script>
+
+
+</body>
+</html>

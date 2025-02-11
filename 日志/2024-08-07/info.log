@@ -1,0 +1,26 @@
+2024-08-07 09:59:16.893 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarting,55] - Starting AIOCompanyApplication using Java 1.8.0_382 on Dell-G16-7630 with PID 104218 (/home/thg/Shark-NJU/AIO/AIO-company/target/classes started by thg in /home/thg/Shark-NJU/AIO)
+2024-08-07 09:59:16.895 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStartupProfileInfo,634] - No active profile set, falling back to 1 default profile: "default"
+2024-08-07 09:59:17.661 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8084"]
+2024-08-07 09:59:17.661 [,] [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+2024-08-07 09:59:17.661 [,] [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-07 09:59:17.697 [,] [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+2024-08-07 09:59:18.550 [,] [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8084"]
+2024-08-07 09:59:18.587 [,] [main] INFO  c.s.a.AIOCompanyApplication - [logStarted,61] - Started AIOCompanyApplication in 1.821 seconds (JVM running for 2.08)
+2024-08-07 09:59:33.294 [,] [http-nio-8084-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-07 09:59:33.302 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: AIO
+2024-08-07 09:59:33.311 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+2024-08-07 09:59:33.361 [,] [http-nio-8084-exec-1] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+2024-08-07 09:59:33.380 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getFfmpegEnabled
+2024-08-07 09:59:33.381 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-07 09:59:33.383 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-07 09:59:44.953 [,] [http-nio-8084-exec-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-07 09:59:44.953 [,] [http-nio-8084-exec-4] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-07 09:59:51.502 [,] [http-nio-8084-exec-9] INFO  c.s.a.b.a.AuthorityController - [authority,32] - 进入权限管理页面成功！
+2024-08-07 09:59:57.885 [,] [http-nio-8084-exec-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: updateInformationWeb
+2024-08-07 09:59:57.885 [,] [http-nio-8084-exec-6] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-07 10:00:02.157 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-07 10:00:02.157 [,] [http-nio-8084-exec-1] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-07 10:00:31.922 [,] [http-nio-8084-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: indexWeb
+2024-08-07 10:00:31.923 [,] [http-nio-8084-exec-8] INFO  User_Operation - [User_Operationlog,20] - After User_Operation method: getInformation
+2024-08-07 10:01:03.116 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+2024-08-07 10:01:03.123 [,] [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.

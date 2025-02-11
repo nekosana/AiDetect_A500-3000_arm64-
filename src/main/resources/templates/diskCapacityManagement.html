@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>智能水质监测系统</title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+<div class="container body">
+    <div class="main_container">
+
+        <!-- 侧边栏 -->
+        <div th:replace="~{blank::menu}"></div>
+
+        <!-- 右上角图标 -->
+        <div th:replace="~{blank::top_nav}"></div>
+
+        <!-- 主页面 -->
+        <div class="right_col" role="main">
+            <div class="">
+                <div class="page-title">
+                    <div class="title_left">
+                        <h3><small>磁盘容量</small></h3>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>一体机参数</h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <!-- start project list -->
+                                <table class="table table-striped projects">
+                                    <thead>
+                                    <tr>
+                                        <th style="text-align:center;width: 8%">内存总容量</th>
+                                        <th style="text-align:center;width: 15%">磁盘总容量</th>
+                                        <th style="text-align:center;width: 10%">网络状态</th>
+                                        <th style="text-align:center;width: 15%">内存利用率</th>
+                                        <th style="text-align:center;width: 15%">存储利用率</th>
+                                        <th style="text-align:center;width: 20%">编辑</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr th:each="disk:${diskCapacity}">
+                                        <td style="text-align:center;"><h6 th:text="${disk.totalMemorySize}"></h6></td>
+
+                                        <td style="text-align:center;"><h6 th:text="${disk.totalSpace}"></h6></td>
+                                        <td style="text-align:center;" th:if="${disk.connect} eq true">
+                                            <button type="button" class="btn btn-success btn-sm btn-round">良好</button>
+                                        </td>
+                                        <td style="text-align:center;" th:if="${disk.connect }eq false">
+                                            <button type="button" class="btn btn-danger btn-sm btn-round">掉线</button>
+                                        </td>
+                                        <td style="text-align:center;" class="project_progress" >
+                                            <div class="progress progress_sm">
+                                                <div class="progress-bar bg-green" role="progressbar" th:data-transitiongoal= "${disk.usedRAMRate}"></div>
+                                            </div>
+                                            <small th:text="${disk.usedRAMRate}"></small>
+                                        </td>
+                                        <td style="text-align:center;" class="project_progress" >
+                                            <div class="progress progress_sm">
+                                                <div class="progress-bar bg-green" role="progressbar" th:data-transitiongoal= "${disk.useRate}"></div>
+                                            </div>
+                                            <small th:text="${disk.useRate}"></small>
+                                        </td>
+                                        <td style="text-align:center;">
+<!--                                            <a href="#" class="btn btn-info btn-sm"><i class="fa fa-pencil"></i> 提醒 </a>-->
+                                            <a th:href="@{/documentManagement}" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i> 磁盘清理 </a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <!-- end project list -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /page content -->
+    </div>
+</div>
+
+<!-- jQuery -->
+<script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+<!-- Bootstrap -->
+<script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+<!-- FastClick -->
+<script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+<!-- NProgress -->
+<script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+<!-- bootstrap-progressbar -->
+<script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+
+<!-- Custom Theme Scripts -->
+<script th:src="@{/build/js/custom.min.js}"></script>
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    var msg = /*[[${msg}]]*/null;
+    if(msg!=null){
+        alert(msg);
+    }
+    /*]]>*/
+</script>
+</body>
+</html>

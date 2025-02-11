@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" th:href="@{/images/favicon.ico}" type="image/ico" />
+
+    <title>智能水质监测系统 </title>
+
+    <!-- Bootstrap -->
+    <link th:href="@{/vendors/bootstrap/dist/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link th:href="@{/vendors/font-awesome/css/font-awesome.min.css}" rel="stylesheet">
+    <!-- NProgress -->
+    <link th:href="@{/vendors/nprogress/nprogress.css}" rel="stylesheet">
+    <!-- iCheck -->
+    <link th:href="@{/vendors/iCheck/skins/flat/green.css}" rel="stylesheet">
+	
+    <!-- bootstrap-progressbar -->
+    <link th:href="@{/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css}" rel="stylesheet">
+    <!-- JQVMap -->
+    <link th:href="@{/vendors/jqvmap/dist/jqvmap.min.css}" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link th:href="@{/vendors/bootstrap-daterangepicker/daterangepicker.css}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link th:href="@{/build/css/custom.min.css}" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div th:replace="~{blank::menu}"></div>
+
+      <!-- 右上角图标 -->
+      <div th:replace="~{blank::top_nav}"></div>
+      <!-- /top navigation -->
+
+
+
+
+      <!-- 主页面 -->
+      <div class="right_col" role="main">
+        <div class="" th:object="${recordsMedium}" th:with="baseURL='/alarm/recordsMedium'">
+          <div class="page-title">
+            <div class="title_left">
+              <h3><small>报警通知</small></h3>
+
+            </div>
+
+            <div class="title_right">
+              <div class="col-md-5 col-sm-5   form-group pull-right top_search">
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="row">
+
+            <div class="col-md-12 col-sm-12">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>Ⅱ级预警</h2>
+
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <div class="row">
+                    <div class="col-sm-2" style="margin-top: 10px;">
+                      <div class="dataTables_length" >
+                        <form id="pageSizeForm" th:action="@{${baseURL}+'/1/'}">
+                          <label>
+
+                            显示 <select id="pageSize" class="input-sm">
+                            <option value="10" th:selected="*{pageSize} eq '10'">10</option>
+                            <option value="25" th:selected="*{pageSize} eq '25'">25</option>
+                            <option value="50" th:selected="*{pageSize} eq '50'">50</option>
+                            <option value="100" th:selected="*{pageSize} eq '100'">100</option>
+                          </select> 条记录
+
+                          </label>
+                        </form>
+
+                      </div>
+                    </div>
+                    <div class="col-sm-10">
+                          <form th:action="@{/alarm/recordsMedium}" method="post">
+                            <fieldset>
+                              <div class="control-group">
+                                <div class="controls">
+                                  <div class="input-prepend input-group col-sm-2">
+                                    <input type="text" name="startTime" class="form-control" placeholder="开始时间"  onfocus="(this.type='datetime-local')"  onblur="(this.type='text')" th:value="${startTime}"/>
+                                  </div>
+                                  <div class="input-prepend input-group col-sm-2">
+                                    <input type="text" name="endTime" class="form-control" placeholder="结束时间"  onfocus="(this.type='datetime-local')"  onblur="(this.type='text')" th:value="${endTime}"/>
+                                  </div>
+                                  <div class="input-prepend input-group col-sm-2">
+                                    <select class="form-control" name="monitorName">
+                                      <option value="">监测点</option>
+                                      <option th:each="mt:${allMonitor}" th:value="${mt}" th:text="${mt}" th:selected="${mt} eq ${monitorName}">监测点1</option>
+                                    </select>
+                                  </div>
+                                  <div class="input-prepend input-group col-sm-2">
+                                    <select class="form-control" name="monitorClass">
+                                      <option value="">监测类型</option>
+                                      <option th:each="mc:${allMonitorClass}" th:value="${mc}" th:text="${mc}" th:selected="${mc} eq ${monitorClass}"></option>
+                                    </select>
+                                  </div>
+                                  <div class="input-prepend input-group col-sm-2">
+                                    <select class="form-control" name="deviceId">
+                                      <option value="">设备Id</option>
+                                      <option th:each="pn:${allDeviceId}" th:value="${pn}" th:text="${pn}" th:selected="${pn} eq ${deviceId}"></option>
+                                    </select>
+                                  </div>
+                                  <div class="input-prepend input-group col-sm-2">
+                                    <input type="submit" class="btn btn-primary btn-sm" value="搜索" style="margin-top: 5px;">
+                                  </div>
+                                </div>
+                              </div>
+                            </fieldset>
+                          </form>
+                    </div>
+                  </div>
+
+                  <table class="table">
+                    <thead style="text-align: center">
+                    <tr>
+                      <th>序号</th>
+                      <th>时间</th>
+                      <th>企业名称</th>
+                      <th>监测点</th>
+                      <th>监测类型</th>
+                      <th>设备Id</th>
+                      <th>报警信息</th>
+                    </tr>
+                    </thead>
+                    <tbody style="text-align: center">
+                    <tr th:each="obj,objStat:*{list}">
+                      <th scope="row" th:text="${objStat.index}+*{startRow}">1</th>
+                      <td th:text="${#dates.format(obj.alarmTime,'yyyy年MM月dd日 HH:mm')}"></td>
+                      <td th:text="${obj.company}"></td>
+                      <td th:text="${obj.monitorName}"></td>
+                      <td th:text="${obj.monitorClass}"></td>
+                      <td th:text="${obj.deviceId}"></td>
+                      <td th:text="${obj.message}"></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                  <div class="row" th:with="feature=${feature} == null or ${feature} == '' ? '':'/'+${feature}">
+                    <div class="col-sm-5">
+                      <div class="dataTables_info" id="datatable_info"role="status " aria-live="polite" >第 <span th:text="*{startRow}">1</span> 到 <span th:text="*{endRow}">10</span> 条记录，总计 <span th:text="*{total}">10</span> 条</div>
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="dataTables_paginate paging_simple_numbers" id="datatable_paginate">
+                        <ul class="pagination">
+                          <li class="paginate_button previous disabled"id="datatable_previous">
+                            <a th:href="@{${baseURL}+'/1/'+*{pageSize}+${feature}}" aria-controls="datatable" tabindex="0" >首页</a>
+                          </li>
+                          <li class="paginate_button active" th:each="navigatePage:*{navigatepageNums}">
+                            <a th:href="@{${baseURL}+'/'+${navigatePage}+'/'+*{pageSize}+${feature}}" aria-controls="datatable" tabindex="0" th:text="${navigatePage}">1</a>
+                          </li>
+                          <li class="paginate_button next disabled" id="datatable_next">
+                            <a th:href="@{${baseURL}+'/'+*{pages}+'/'+*{pageSize}+${feature}}" aria-controls="datatable" tabindex="0" >尾页</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- 主页面结束 -->
+
+
+
+
+        <!-- footer content 页脚：可以指代开发公司？-->
+<!--        <footer>-->
+<!--          <div class="pull-middle">-->
+<!--            Gentelella - Bootstrap Admin Template by <a th:href="@{/https://colorlib.com">Colorlib</a>-->
+<!--          </div>-->
+<!--          <div class="clearfix"></div>-->
+<!--        </footer>-->
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script th:src="@{/vendors/jquery/dist/jquery.min.js}"></script>
+    <!-- Bootstrap -->
+    <script th:src="@{/vendors/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+    <!-- FastClick -->
+    <script th:src="@{/vendors/fastclick/lib/fastclick.js}"></script>
+    <!-- NProgress -->
+    <script th:src="@{/vendors/nprogress/nprogress.js}"></script>
+    <!-- Chart.js -->
+    <script th:src="@{/vendors/Chart.js/dist/Chart.min.js}"></script>
+    <!-- gauge.js -->
+    <script th:src="@{/vendors/gauge.js/dist/gauge.min.js}"></script>
+    <!-- bootstrap-progressbar -->
+    <script th:src="@{/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js}"></script>
+    <!-- iCheck -->
+    <script th:src="@{/vendors/iCheck/icheck.min.js}"></script>
+    <!-- Skycons -->
+    <script th:src="@{/vendors/skycons/skycons.js}"></script>
+    <!-- Flot -->
+    <script th:src="@{/vendors/Flot/jquery.flot.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.pie.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.time.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.stack.js}"></script>
+    <script th:src="@{/vendors/Flot/jquery.flot.resize.js}"></script>
+    <!-- Flot plugins -->
+    <script th:src="@{/vendors/flot.orderbars/js/jquery.flot.orderBars.js}"></script>
+    <script th:src="@{/vendors/flot-spline/js/jquery.flot.spline.min.js}"></script>
+    <script th:src="@{/vendors/flot.curvedlines/curvedLines.js}"></script>
+    <!-- DateJS -->
+    <script th:src="@{/vendors/DateJS/build/date.js}"></script>
+    <!-- JQVMap -->
+    <script th:src="@{/vendors/jqvmap/dist/jquery.vmap.js}"></script>
+    <script th:src="@{/vendors/jqvmap/dist/maps/jquery.vmap.world.js}"></script>
+    <script th:src="@{/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js}"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script th:src="@{/vendors/moment/min/moment.min.js}"></script>
+    <script th:src="@{/vendors/bootstrap-daterangepicker/daterangepicker.js}"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script th:src="@{/build/js/custom.min.js}"></script>
+  <script type="text/javascript" th:inline="javascript">
+    $(function (){
+      $("#pageSize").change(function(){
+        $("#pageSizeForm").attr({'action':$("#pageSizeForm").attr('action')+$("#pageSize option:selected").val()})
+        $("#pageSizeForm").submit();
+      });
+    });
+  </script>
+  <script th:inline="javascript">
+      /*<![CDATA[*/
+        var msg = /*[[${msg}]]*/null;
+        if(msg!=null){
+            alert(msg);
+        }
+      /*]]>*/
+  </script>
+</body>
+</html>
